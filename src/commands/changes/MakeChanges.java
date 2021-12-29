@@ -6,19 +6,26 @@ import commands.Command;
 import input.Input;
 import northpole.Change;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class MakeChanges implements Command {
+public final class MakeChanges implements Command {
     private final Change change;
     private final Input input;
     private final List<Child> childList;
 
-    public MakeChanges(Change change, Input input, List<Child> childList) {
+    public MakeChanges(final Change change, final Input input, final List<Child> childList) {
         this.change = change;
         this.input = input;
         this.childList = childList;
     }
 
+    /**
+     * Updates all the variables after changes
+     * For the gift preferences, it firstly checks if the new gift preferences
+     * have duplicates and removes them. Also, if the old preference list contains
+     * categories from the new list, they will be removed.
+     */
     @Override
     public void execute() {
         input.setSantaBudget(change.getNewSantaBudget());
@@ -28,12 +35,18 @@ public class MakeChanges implements Command {
         for (Update update : change.getChildrenUpdates()) {
             for (Child child : childList) {
                 if (child.getId() == update.getId()) {
-                    if(update.getNiceScore() != -1) {
+                    if (update.getNiceScore() != -1) {
                         child.getScoreList().add(update.getNiceScore());
                     }
-                    if(update.getGiftsPreferences() != null) {
-                        child.getGiftsPreferences().removeIf(a -> update.getGiftsPreferences().contains(a));
-                        child.getGiftsPreferences().addAll(0, update.getGiftsPreferences());
+                    if (update.getGiftsPreferences() != null) {
+                        List<String> updatedGiftPreferences = new ArrayList<>();
+                        for (String preference : update.getGiftsPreferences()) {
+                            if (!updatedGiftPreferences.contains(preference)) {
+                                updatedGiftPreferences.add(preference);
+                            }
+                        }
+                        child.getGiftsPreferences().removeIf(updatedGiftPreferences::contains);
+                        child.getGiftsPreferences().addAll(0, updatedGiftPreferences);
                     }
                     break;
                 }

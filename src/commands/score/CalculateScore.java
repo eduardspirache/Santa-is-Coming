@@ -3,13 +3,11 @@ package commands.score;
 import children.Child;
 import commands.Command;
 
-import static common.Constants.*;
-
-public class CalculateScore implements Command {
+public final class CalculateScore implements Command {
     private Score score;
-    private Child child;
+    private final Child child;
 
-    public CalculateScore(Child child) {
+    public CalculateScore(final Child child) {
         this.child = child;
         this.score = ScoreFactory.createScore(child);
     }
@@ -17,6 +15,7 @@ public class CalculateScore implements Command {
     @Override
     public void execute() {
         score.execute();
+        child.setNiceScore(score.getAverageScore());
     }
 
     public double getAverageScore() {

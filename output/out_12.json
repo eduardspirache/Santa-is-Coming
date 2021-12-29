@@ -203,7 +203,7 @@
       "niceScoreHistory" : [ 6.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Books" ],
-      "assignedBudget" : 78.17142857142858,
+      "assignedBudget" : 80.47058823529412,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 25.0,
@@ -218,7 +218,7 @@
       "niceScoreHistory" : [ 9.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Board Games", "Clothes" ],
-      "assignedBudget" : 117.25714285714285,
+      "assignedBudget" : 120.70588235294117,
       "id" : 2,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -237,7 +237,7 @@
       "niceScoreHistory" : [ 6.0 ],
       "city" : "Oradea",
       "giftsPreferences" : [ "Sweets", "Toys" ],
-      "assignedBudget" : 78.17142857142858,
+      "assignedBudget" : 80.47058823529412,
       "id" : 4,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -253,25 +253,33 @@
     }, {
       "lastName" : "Pop",
       "firstName" : "Tudor",
-      "niceScoreHistory" : [ 6.0 ],
+      "niceScoreHistory" : [ 6.0, 4.0 ],
       "city" : "Craiova",
-      "giftsPreferences" : [ "Books" ],
-      "assignedBudget" : 78.17142857142858,
+      "giftsPreferences" : [ "Clothes", "Sweets", "Toys", "Books" ],
+      "assignedBudget" : 67.05882352941177,
       "id" : 5,
       "receivedGifts" : [ {
+        "price" : 10.0,
+        "category" : "Sweets",
+        "productName" : "Gummy Bears"
+      }, {
+        "price" : 15.0,
+        "category" : "Toys",
+        "productName" : "Castle"
+      }, {
         "price" : 25.0,
         "category" : "Books",
         "productName" : "Diary of a Wimpy Kid"
       } ],
       "age" : 5,
-      "averageScore" : 6.0
+      "averageScore" : 5.0
     }, {
       "lastName" : "Pop",
       "firstName" : "Maria",
       "niceScoreHistory" : [ 8.0 ],
       "city" : "Constanta",
       "giftsPreferences" : [ "Sweets", "Toys", "Books" ],
-      "assignedBudget" : 104.22857142857143,
+      "assignedBudget" : 107.29411764705883,
       "id" : 6,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -315,14 +323,14 @@
     }, {
       "lastName" : "Pop",
       "firstName" : "Tudor",
-      "niceScoreHistory" : [ 6.0 ],
+      "niceScoreHistory" : [ 6.0, 4.0 ],
       "city" : "Craiova",
-      "giftsPreferences" : [ "Books" ],
+      "giftsPreferences" : [ "Clothes", "Sweets", "Toys", "Books" ],
       "assignedBudget" : 0.0,
       "id" : 5,
       "receivedGifts" : [ ],
       "age" : 6,
-      "averageScore" : 6.0
+      "averageScore" : 5.0
     }, {
       "lastName" : "Popa",
       "firstName" : "Mihai",

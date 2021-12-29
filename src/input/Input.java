@@ -7,7 +7,7 @@ import northpole.Gift;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Input {
+public final class Input {
     private int numberOfYears;
     private double santaBudget;
     private List<Child> childList;
@@ -26,7 +26,7 @@ public class Input {
         return numberOfYears;
     }
 
-    public void setNumberOfYears(int numberOfYears) {
+    public void setNumberOfYears(final int numberOfYears) {
         this.numberOfYears = numberOfYears;
     }
 
@@ -34,7 +34,7 @@ public class Input {
         return santaBudget;
     }
 
-    public void setSantaBudget(double santaBudget) {
+    public void setSantaBudget(final double santaBudget) {
         this.santaBudget = santaBudget;
     }
 
@@ -42,7 +42,7 @@ public class Input {
         return childList;
     }
 
-    public void setChildList(List<Child> childList) {
+    public void setChildList(final List<Child> childList) {
         this.childList = childList;
     }
 
@@ -50,7 +50,7 @@ public class Input {
         return giftList;
     }
 
-    public void setGiftList(List<Gift> giftList) {
+    public void setGiftList(final List<Gift> giftList) {
         this.giftList = giftList;
     }
 
@@ -58,7 +58,7 @@ public class Input {
         return annualChanges;
     }
 
-    public void setAnnualChanges(List<Change> annualChanges) {
+    public void setAnnualChanges(final List<Change> annualChanges) {
         this.annualChanges = annualChanges;
     }
 }

@@ -1,6 +1,7 @@
 package input;
 
 import children.Child;
+import children.Update;
 import northpole.Gift;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -8,8 +9,16 @@ import org.json.simple.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-public class InputHelper {
-    public static List<Child> returnChildren(JSONArray children) {
+public final class InputHelper {
+
+    private InputHelper() {
+        // Constructor for checkstyle
+    }
+
+    /**
+     * @return children list from JSONArray
+     */
+    public static List<Child> returnChildren(final JSONArray children) {
         List<Child> childList = new ArrayList<>();
         if (children != null) {
             for (Object child : children) {
@@ -31,7 +40,7 @@ public class InputHelper {
 
                 double niceScore = -1;
                 if (((JSONObject) child).get("niceScore") != null) {
-                    niceScore = ((Long)((JSONObject) child).get("niceScore")).doubleValue();
+                    niceScore = ((Long) ((JSONObject) child).get("niceScore")).doubleValue();
 
                 }
                 List<String> giftsPreferences = new ArrayList<>();
@@ -50,7 +59,10 @@ public class InputHelper {
         return childList;
     }
 
-    public static List<Gift> returnGifts(JSONArray gifts) {
+    /**
+     * @return gifts list from JSONArray
+     */
+    public static List<Gift> returnGifts(final JSONArray gifts) {
         List<Gift> santaGiftList = new ArrayList<>();
         if (gifts != null) {
             for (Object gift : gifts) {
@@ -58,7 +70,7 @@ public class InputHelper {
 
                 int price = -1;
                 if (((JSONObject) gift).get("price") != null) {
-                    price = (int) ((Long)((JSONObject) gift).get("price")).intValue();
+                    price = (int) ((Long) ((JSONObject) gift).get("price")).intValue();
                 }
 
                 String category = (String) ((JSONObject) gift).get("category");
@@ -68,5 +80,34 @@ public class InputHelper {
             }
         }
         return santaGiftList;
+    }
+
+    /**
+     * @return updates list from JSONArray
+     */
+    public static List<Update> returnUpdates(final JSONArray updates) {
+        List<Update> childrenUpdates = new ArrayList<>();
+        if (updates != null) {
+            for (Object update : updates) {
+                int id = -1;
+                if (((JSONObject) update).get("id") != null) {
+                    id = ((Long) ((JSONObject) update).get("id")).intValue();
+                }
+                double niceScore = -1;
+                if (((JSONObject) update).get("niceScore") != null) {
+                    niceScore = ((Long) ((JSONObject) update).get("niceScore")).doubleValue();
+                }
+                JSONArray giftCategories = (JSONArray) ((JSONObject) update)
+                        .get("giftsPreferences");
+                List<String> giftsPreferences = new ArrayList<>();
+                for (Object giftCategory : giftCategories) {
+                    String gift = (String) giftCategory;
+                    giftsPreferences.add(gift);
+                }
+                Update newUpdate = new Update(id, niceScore, giftsPreferences);
+                childrenUpdates.add(newUpdate);
+            }
+        }
+        return childrenUpdates;
     }
 }

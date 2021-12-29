@@ -356,7 +356,7 @@
     }, {
       "lastName" : "Mihalache",
       "firstName" : "Matei",
-      "niceScoreHistory" : [ 2.0 ],
+      "niceScoreHistory" : [ 2.0, 8.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
       "assignedBudget" : 104.42307692307692,
@@ -559,7 +559,7 @@
     }, {
       "lastName" : "Mihalache",
       "firstName" : "Matei",
-      "niceScoreHistory" : [ 2.0 ],
+      "niceScoreHistory" : [ 2.0, 8.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
       "assignedBudget" : 66.09375,
@@ -777,7 +777,7 @@
     }, {
       "lastName" : "Mihalache",
       "firstName" : "Matei",
-      "niceScoreHistory" : [ 2.0 ],
+      "niceScoreHistory" : [ 2.0, 8.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
       "assignedBudget" : 123.44262295081967,
@@ -873,7 +873,7 @@
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Clothes", "Toys" ],
-      "assignedBudget" : 46.48148148148148,
+      "assignedBudget" : 41.48760330578512,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -888,7 +888,7 @@
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Clothes", "Toys", "Books" ],
-      "assignedBudget" : 37.18518518518518,
+      "assignedBudget" : 33.1900826446281,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -907,7 +907,7 @@
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Sweets", "Board Games", "Toys" ],
-      "assignedBudget" : 37.18518518518518,
+      "assignedBudget" : 33.1900826446281,
       "id" : 2,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -930,7 +930,7 @@
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
-      "assignedBudget" : 37.18518518518518,
+      "assignedBudget" : 33.1900826446281,
       "id" : 3,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -949,7 +949,7 @@
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Sweets", "Board Games", "Toys", "Books" ],
-      "assignedBudget" : 46.48148148148148,
+      "assignedBudget" : 41.48760330578512,
       "id" : 4,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -972,7 +972,7 @@
       "niceScoreHistory" : [ 2.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Toys" ],
-      "assignedBudget" : 18.59259259259259,
+      "assignedBudget" : 16.59504132231405,
       "id" : 5,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -984,10 +984,10 @@
     }, {
       "lastName" : "Pop",
       "firstName" : "Maria",
-      "niceScoreHistory" : [ 3.0 ],
+      "niceScoreHistory" : [ 3.0, 10.0 ],
       "city" : "Iasi",
       "giftsPreferences" : [ "Technology", "Board Games" ],
-      "assignedBudget" : 27.888888888888886,
+      "assignedBudget" : 53.93388429752066,
       "id" : 7,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -995,14 +995,14 @@
         "productName" : "Uno"
       } ],
       "age" : 8,
-      "averageScore" : 3.0
+      "averageScore" : 6.5
     }, {
       "lastName" : "Mihalache",
       "firstName" : "Matei",
-      "niceScoreHistory" : [ 2.0 ],
+      "niceScoreHistory" : [ 2.0, 8.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
-      "assignedBudget" : 18.59259259259259,
+      "assignedBudget" : 41.48760330578512,
       "id" : 8,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -1014,14 +1014,14 @@
         "productName" : "Teddy Bear"
       } ],
       "age" : 5,
-      "averageScore" : 2.0
+      "averageScore" : 5.0
     }, {
       "lastName" : "Pop",
       "firstName" : "Maria",
       "niceScoreHistory" : [ 3.0 ],
       "city" : "Oradea",
       "giftsPreferences" : [ "Board Games", "Toys" ],
-      "assignedBudget" : 27.888888888888886,
+      "assignedBudget" : 24.892561983471076,
       "id" : 10,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -1040,7 +1040,7 @@
       "niceScoreHistory" : [ 3.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Sweets" ],
-      "assignedBudget" : 27.888888888888886,
+      "assignedBudget" : 24.892561983471076,
       "id" : 11,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -1055,7 +1055,7 @@
       "niceScoreHistory" : [ 10.0 ],
       "city" : "Constanta",
       "giftsPreferences" : [ "Clothes", "Toys" ],
-      "assignedBudget" : 92.96296296296296,
+      "assignedBudget" : 82.97520661157024,
       "id" : 12,
       "receivedGifts" : [ {
         "price" : 70.0,
@@ -1074,7 +1074,7 @@
       "niceScoreHistory" : [ 2.0 ],
       "city" : "Timisoara",
       "giftsPreferences" : [ "Technology", "Toys" ],
-      "assignedBudget" : 18.59259259259259,
+      "assignedBudget" : 16.59504132231405,
       "id" : 13,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -1089,7 +1089,7 @@
       "niceScoreHistory" : [ 7.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Clothes" ],
-      "assignedBudget" : 65.07407407407408,
+      "assignedBudget" : 58.082644628099175,
       "id" : 14,
       "receivedGifts" : [ ],
       "age" : 5,
@@ -1102,7 +1102,7 @@
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Clothes", "Toys" ],
-      "assignedBudget" : 162.1186440677966,
+      "assignedBudget" : 138.62318840579712,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 70.0,
@@ -1121,7 +1121,7 @@
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Clothes", "Toys", "Books" ],
-      "assignedBudget" : 129.6949152542373,
+      "assignedBudget" : 110.89855072463769,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 70.0,
@@ -1144,7 +1144,7 @@
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Sweets", "Board Games", "Toys" ],
-      "assignedBudget" : 129.6949152542373,
+      "assignedBudget" : 110.89855072463769,
       "id" : 2,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -1167,7 +1167,7 @@
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
-      "assignedBudget" : 129.6949152542373,
+      "assignedBudget" : 110.89855072463769,
       "id" : 3,
       "receivedGifts" : [ {
         "price" : 70.0,
@@ -1190,7 +1190,7 @@
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Sweets", "Board Games", "Toys", "Books" ],
-      "assignedBudget" : 162.1186440677966,
+      "assignedBudget" : 138.62318840579712,
       "id" : 4,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -1214,10 +1214,10 @@
     }, {
       "lastName" : "Mihalache",
       "firstName" : "Andreea",
-      "niceScoreHistory" : [ 2.0 ],
+      "niceScoreHistory" : [ 2.0, 9.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Toys" ],
-      "assignedBudget" : 64.84745762711864,
+      "assignedBudget" : 152.4855072463768,
       "id" : 5,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -1225,31 +1225,39 @@
         "productName" : "Teddy Bear"
       } ],
       "age" : 11,
-      "averageScore" : 2.0
+      "averageScore" : 5.5
     }, {
       "lastName" : "Pop",
       "firstName" : "Maria",
-      "niceScoreHistory" : [ 3.0 ],
+      "niceScoreHistory" : [ 3.0, 10.0 ],
       "city" : "Iasi",
       "giftsPreferences" : [ "Technology", "Board Games" ],
-      "assignedBudget" : 97.27118644067797,
+      "assignedBudget" : 180.21014492753625,
       "id" : 7,
       "receivedGifts" : [ {
+        "price" : 100.0,
+        "category" : "Technology",
+        "productName" : "Headphones"
+      }, {
         "price" : 10.0,
         "category" : "Board Games",
         "productName" : "Uno"
       } ],
       "age" : 9,
-      "averageScore" : 3.0
+      "averageScore" : 6.5
     }, {
       "lastName" : "Mihalache",
       "firstName" : "Matei",
-      "niceScoreHistory" : [ 2.0 ],
+      "niceScoreHistory" : [ 2.0, 8.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
-      "assignedBudget" : 64.84745762711864,
+      "assignedBudget" : 138.62318840579712,
       "id" : 8,
       "receivedGifts" : [ {
+        "price" : 70.0,
+        "category" : "Clothes",
+        "productName" : "Shoes"
+      }, {
         "price" : 10.0,
         "category" : "Sweets",
         "productName" : "Gummy Bears"
@@ -1259,14 +1267,14 @@
         "productName" : "Teddy Bear"
       } ],
       "age" : 6,
-      "averageScore" : 2.0
+      "averageScore" : 5.0
     }, {
       "lastName" : "Pop",
       "firstName" : "Maria",
       "niceScoreHistory" : [ 3.0 ],
       "city" : "Oradea",
       "giftsPreferences" : [ "Board Games", "Toys" ],
-      "assignedBudget" : 97.27118644067797,
+      "assignedBudget" : 83.17391304347827,
       "id" : 10,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -1285,7 +1293,7 @@
       "niceScoreHistory" : [ 3.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Sweets" ],
-      "assignedBudget" : 97.27118644067797,
+      "assignedBudget" : 83.17391304347827,
       "id" : 11,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -1300,7 +1308,7 @@
       "niceScoreHistory" : [ 10.0 ],
       "city" : "Constanta",
       "giftsPreferences" : [ "Clothes", "Toys" ],
-      "assignedBudget" : 324.2372881355932,
+      "assignedBudget" : 277.24637681159425,
       "id" : 12,
       "receivedGifts" : [ {
         "price" : 70.0,
@@ -1319,7 +1327,7 @@
       "niceScoreHistory" : [ 2.0 ],
       "city" : "Timisoara",
       "giftsPreferences" : [ "Technology", "Toys" ],
-      "assignedBudget" : 64.84745762711864,
+      "assignedBudget" : 55.44927536231884,
       "id" : 13,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -1334,7 +1342,7 @@
       "niceScoreHistory" : [ 7.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Clothes" ],
-      "assignedBudget" : 226.96610169491527,
+      "assignedBudget" : 194.07246376811594,
       "id" : 14,
       "receivedGifts" : [ {
         "price" : 70.0,
@@ -1349,7 +1357,7 @@
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Sweets", "Toys" ],
-      "assignedBudget" : 162.1186440677966,
+      "assignedBudget" : 138.62318840579712,
       "id" : 15,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -1370,7 +1378,7 @@
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Clothes", "Toys" ],
-      "assignedBudget" : 50.42372881355932,
+      "assignedBudget" : 42.39904988123516,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -1385,7 +1393,7 @@
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Clothes", "Toys", "Books" ],
-      "assignedBudget" : 40.33898305084746,
+      "assignedBudget" : 33.919239904988125,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -1404,7 +1412,7 @@
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Sweets", "Board Games", "Toys" ],
-      "assignedBudget" : 40.33898305084746,
+      "assignedBudget" : 33.919239904988125,
       "id" : 2,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -1427,7 +1435,7 @@
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
-      "assignedBudget" : 40.33898305084746,
+      "assignedBudget" : 33.919239904988125,
       "id" : 3,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -1446,7 +1454,7 @@
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Sweets", "Board Games", "Toys", "Books" ],
-      "assignedBudget" : 50.42372881355932,
+      "assignedBudget" : 42.39904988123516,
       "id" : 4,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -1460,20 +1468,16 @@
         "price" : 5.0,
         "category" : "Toys",
         "productName" : "Teddy Bear"
-      }, {
-        "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
       } ],
       "age" : 13,
       "averageScore" : 5.0
     }, {
       "lastName" : "Mihalache",
       "firstName" : "Andreea",
-      "niceScoreHistory" : [ 2.0 ],
+      "niceScoreHistory" : [ 2.0, 9.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Toys" ],
-      "assignedBudget" : 20.16949152542373,
+      "assignedBudget" : 56.53206650831354,
       "id" : 5,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -1481,14 +1485,14 @@
         "productName" : "Teddy Bear"
       } ],
       "age" : 12,
-      "averageScore" : 2.0
+      "averageScore" : 6.666666666666667
     }, {
       "lastName" : "Pop",
       "firstName" : "Maria",
-      "niceScoreHistory" : [ 3.0 ],
+      "niceScoreHistory" : [ 3.0, 10.0 ],
       "city" : "Iasi",
       "giftsPreferences" : [ "Technology", "Board Games" ],
-      "assignedBudget" : 30.254237288135595,
+      "assignedBudget" : 55.1187648456057,
       "id" : 7,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -1496,14 +1500,14 @@
         "productName" : "Uno"
       } ],
       "age" : 10,
-      "averageScore" : 3.0
+      "averageScore" : 6.5
     }, {
       "lastName" : "Mihalache",
       "firstName" : "Matei",
-      "niceScoreHistory" : [ 2.0 ],
+      "niceScoreHistory" : [ 2.0, 8.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
-      "assignedBudget" : 20.16949152542373,
+      "assignedBudget" : 42.39904988123516,
       "id" : 8,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -1515,14 +1519,14 @@
         "productName" : "Teddy Bear"
       } ],
       "age" : 7,
-      "averageScore" : 2.0
+      "averageScore" : 5.0
     }, {
       "lastName" : "Pop",
       "firstName" : "Maria",
       "niceScoreHistory" : [ 3.0 ],
       "city" : "Oradea",
       "giftsPreferences" : [ "Board Games", "Toys" ],
-      "assignedBudget" : 30.254237288135595,
+      "assignedBudget" : 25.43942992874109,
       "id" : 10,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -1541,7 +1545,7 @@
       "niceScoreHistory" : [ 3.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Sweets" ],
-      "assignedBudget" : 30.254237288135595,
+      "assignedBudget" : 25.43942992874109,
       "id" : 11,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -1556,7 +1560,7 @@
       "niceScoreHistory" : [ 2.0 ],
       "city" : "Timisoara",
       "giftsPreferences" : [ "Technology", "Toys" ],
-      "assignedBudget" : 20.16949152542373,
+      "assignedBudget" : 16.959619952494062,
       "id" : 13,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -1571,13 +1575,9 @@
       "niceScoreHistory" : [ 7.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Clothes" ],
-      "assignedBudget" : 70.59322033898306,
+      "assignedBudget" : 59.358669833729216,
       "id" : 14,
-      "receivedGifts" : [ {
-        "price" : 70.0,
-        "category" : "Clothes",
-        "productName" : "Shoes"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 7,
       "averageScore" : 7.0
     }, {
@@ -1586,7 +1586,7 @@
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Sweets", "Toys" ],
-      "assignedBudget" : 50.42372881355932,
+      "assignedBudget" : 42.39904988123516,
       "id" : 15,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -1605,7 +1605,7 @@
       "niceScoreHistory" : [ 10.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Clothes", "Sweets", "Board Games" ],
-      "assignedBudget" : 100.84745762711864,
+      "assignedBudget" : 84.79809976247031,
       "id" : 17,
       "receivedGifts" : [ {
         "price" : 70.0,
@@ -1615,10 +1615,6 @@
         "price" : 10.0,
         "category" : "Sweets",
         "productName" : "Gummy Bears"
-      }, {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
       } ],
       "age" : 13,
       "averageScore" : 10.0
@@ -1630,7 +1626,7 @@
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Clothes", "Toys" ],
-      "assignedBudget" : 159.41666666666666,
+      "assignedBudget" : 128.96629213483146,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 70.0,
@@ -1648,10 +1644,29 @@
       "firstName" : "Radu",
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Brasov",
-      "giftsPreferences" : [ "Clothes", "Toys", "Books" ],
-      "assignedBudget" : 127.53333333333333,
+      "giftsPreferences" : [ "Technology", "Clothes", "Toys", "Books" ],
+      "assignedBudget" : 103.17303370786516,
       "id" : 1,
       "receivedGifts" : [ {
+        "price" : 100.0,
+        "category" : "Technology",
+        "productName" : "Headphones"
+      } ],
+      "age" : 15,
+      "averageScore" : 4.0
+    }, {
+      "lastName" : "Cantemir",
+      "firstName" : "Tudor",
+      "niceScoreHistory" : [ 4.0, 10.0 ],
+      "city" : "Bucuresti",
+      "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Sweets" ],
+      "assignedBudget" : 180.552808988764,
+      "id" : 2,
+      "receivedGifts" : [ {
+        "price" : 10.0,
+        "category" : "Board Games",
+        "productName" : "Uno"
+      }, {
         "price" : 70.0,
         "category" : "Clothes",
         "productName" : "Shoes"
@@ -1660,42 +1675,19 @@
         "category" : "Toys",
         "productName" : "Teddy Bear"
       }, {
-        "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
-      } ],
-      "age" : 15,
-      "averageScore" : 4.0
-    }, {
-      "lastName" : "Cantemir",
-      "firstName" : "Tudor",
-      "niceScoreHistory" : [ 4.0 ],
-      "city" : "Bucuresti",
-      "giftsPreferences" : [ "Sweets", "Board Games", "Toys" ],
-      "assignedBudget" : 127.53333333333333,
-      "id" : 2,
-      "receivedGifts" : [ {
         "price" : 10.0,
         "category" : "Sweets",
         "productName" : "Gummy Bears"
-      }, {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
       } ],
       "age" : 8,
-      "averageScore" : 4.0
+      "averageScore" : 7.0
     }, {
       "lastName" : "Ionescu",
       "firstName" : "Andreea",
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
-      "assignedBudget" : 127.53333333333333,
+      "assignedBudget" : 103.17303370786516,
       "id" : 3,
       "receivedGifts" : [ {
         "price" : 70.0,
@@ -1718,7 +1710,7 @@
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Sweets", "Board Games", "Toys", "Books" ],
-      "assignedBudget" : 159.41666666666666,
+      "assignedBudget" : 128.96629213483146,
       "id" : 4,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -1742,10 +1734,10 @@
     }, {
       "lastName" : "Mihalache",
       "firstName" : "Andreea",
-      "niceScoreHistory" : [ 2.0 ],
+      "niceScoreHistory" : [ 2.0, 9.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Toys" ],
-      "assignedBudget" : 63.766666666666666,
+      "assignedBudget" : 171.95505617977528,
       "id" : 5,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -1753,31 +1745,39 @@
         "productName" : "Teddy Bear"
       } ],
       "age" : 13,
-      "averageScore" : 2.0
+      "averageScore" : 6.666666666666667
     }, {
       "lastName" : "Pop",
       "firstName" : "Maria",
-      "niceScoreHistory" : [ 3.0 ],
+      "niceScoreHistory" : [ 3.0, 10.0 ],
       "city" : "Iasi",
       "giftsPreferences" : [ "Technology", "Board Games" ],
-      "assignedBudget" : 95.65,
+      "assignedBudget" : 167.6561797752809,
       "id" : 7,
       "receivedGifts" : [ {
+        "price" : 100.0,
+        "category" : "Technology",
+        "productName" : "Headphones"
+      }, {
         "price" : 10.0,
         "category" : "Board Games",
         "productName" : "Uno"
       } ],
       "age" : 11,
-      "averageScore" : 3.0
+      "averageScore" : 6.5
     }, {
       "lastName" : "Mihalache",
       "firstName" : "Matei",
-      "niceScoreHistory" : [ 2.0 ],
+      "niceScoreHistory" : [ 2.0, 8.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
-      "assignedBudget" : 63.766666666666666,
+      "assignedBudget" : 128.96629213483146,
       "id" : 8,
       "receivedGifts" : [ {
+        "price" : 70.0,
+        "category" : "Clothes",
+        "productName" : "Shoes"
+      }, {
         "price" : 10.0,
         "category" : "Sweets",
         "productName" : "Gummy Bears"
@@ -1787,14 +1787,14 @@
         "productName" : "Teddy Bear"
       } ],
       "age" : 8,
-      "averageScore" : 2.0
+      "averageScore" : 5.0
     }, {
       "lastName" : "Cantemir",
       "firstName" : "Maria",
       "niceScoreHistory" : [ 3.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Sweets" ],
-      "assignedBudget" : 95.65,
+      "assignedBudget" : 77.37977528089887,
       "id" : 11,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -1809,7 +1809,7 @@
       "niceScoreHistory" : [ 7.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Clothes" ],
-      "assignedBudget" : 223.18333333333334,
+      "assignedBudget" : 180.552808988764,
       "id" : 14,
       "receivedGifts" : [ {
         "price" : 70.0,
@@ -1824,7 +1824,7 @@
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Sweets", "Toys" ],
-      "assignedBudget" : 159.41666666666666,
+      "assignedBudget" : 128.96629213483146,
       "id" : 15,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -1843,7 +1843,7 @@
       "niceScoreHistory" : [ 10.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Clothes", "Sweets", "Board Games" ],
-      "assignedBudget" : 318.8333333333333,
+      "assignedBudget" : 257.9325842696629,
       "id" : 17,
       "receivedGifts" : [ {
         "price" : 70.0,
@@ -1866,7 +1866,7 @@
       "niceScoreHistory" : [ 6.0 ],
       "city" : "Timisoara",
       "giftsPreferences" : [ "Sweets", "Toys" ],
-      "assignedBudget" : 191.3,
+      "assignedBudget" : 154.75955056179774,
       "id" : 18,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -1887,7 +1887,7 @@
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Clothes", "Toys" ],
-      "assignedBudget" : 159.41666666666666,
+      "assignedBudget" : 126.96902654867256,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 70.0,
@@ -1905,10 +1905,29 @@
       "firstName" : "Radu",
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Brasov",
-      "giftsPreferences" : [ "Clothes", "Toys", "Books" ],
-      "assignedBudget" : 127.53333333333333,
+      "giftsPreferences" : [ "Technology", "Clothes", "Toys", "Books" ],
+      "assignedBudget" : 101.57522123893804,
       "id" : 1,
       "receivedGifts" : [ {
+        "price" : 100.0,
+        "category" : "Technology",
+        "productName" : "Headphones"
+      } ],
+      "age" : 16,
+      "averageScore" : 4.0
+    }, {
+      "lastName" : "Cantemir",
+      "firstName" : "Tudor",
+      "niceScoreHistory" : [ 4.0, 10.0 ],
+      "city" : "Bucuresti",
+      "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Sweets" ],
+      "assignedBudget" : 177.75663716814157,
+      "id" : 2,
+      "receivedGifts" : [ {
+        "price" : 10.0,
+        "category" : "Board Games",
+        "productName" : "Uno"
+      }, {
         "price" : 70.0,
         "category" : "Clothes",
         "productName" : "Shoes"
@@ -1917,42 +1936,19 @@
         "category" : "Toys",
         "productName" : "Teddy Bear"
       }, {
-        "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
-      } ],
-      "age" : 16,
-      "averageScore" : 4.0
-    }, {
-      "lastName" : "Cantemir",
-      "firstName" : "Tudor",
-      "niceScoreHistory" : [ 4.0 ],
-      "city" : "Bucuresti",
-      "giftsPreferences" : [ "Sweets", "Board Games", "Toys" ],
-      "assignedBudget" : 127.53333333333333,
-      "id" : 2,
-      "receivedGifts" : [ {
         "price" : 10.0,
         "category" : "Sweets",
         "productName" : "Gummy Bears"
-      }, {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
-      }, {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
       } ],
       "age" : 9,
-      "averageScore" : 4.0
+      "averageScore" : 7.0
     }, {
       "lastName" : "Ionescu",
       "firstName" : "Andreea",
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
-      "assignedBudget" : 127.53333333333333,
+      "assignedBudget" : 101.57522123893804,
       "id" : 3,
       "receivedGifts" : [ {
         "price" : 70.0,
@@ -1975,7 +1971,7 @@
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Sweets", "Board Games", "Toys", "Books" ],
-      "assignedBudget" : 159.41666666666666,
+      "assignedBudget" : 126.96902654867256,
       "id" : 4,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -1999,10 +1995,10 @@
     }, {
       "lastName" : "Mihalache",
       "firstName" : "Andreea",
-      "niceScoreHistory" : [ 2.0 ],
+      "niceScoreHistory" : [ 2.0, 9.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Toys" ],
-      "assignedBudget" : 63.766666666666666,
+      "assignedBudget" : 169.29203539823007,
       "id" : 5,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -2010,31 +2006,39 @@
         "productName" : "Teddy Bear"
       } ],
       "age" : 14,
-      "averageScore" : 2.0
+      "averageScore" : 6.666666666666667
     }, {
       "lastName" : "Pop",
       "firstName" : "Maria",
-      "niceScoreHistory" : [ 3.0 ],
+      "niceScoreHistory" : [ 3.0, 10.0 ],
       "city" : "Iasi",
       "giftsPreferences" : [ "Technology", "Board Games" ],
-      "assignedBudget" : 95.65,
+      "assignedBudget" : 194.6858407079646,
       "id" : 7,
       "receivedGifts" : [ {
+        "price" : 100.0,
+        "category" : "Technology",
+        "productName" : "Headphones"
+      }, {
         "price" : 10.0,
         "category" : "Board Games",
         "productName" : "Uno"
       } ],
       "age" : 12,
-      "averageScore" : 3.0
+      "averageScore" : 7.666666666666667
     }, {
       "lastName" : "Mihalache",
       "firstName" : "Matei",
-      "niceScoreHistory" : [ 2.0 ],
+      "niceScoreHistory" : [ 2.0, 8.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
-      "assignedBudget" : 63.766666666666666,
+      "assignedBudget" : 126.96902654867256,
       "id" : 8,
       "receivedGifts" : [ {
+        "price" : 70.0,
+        "category" : "Clothes",
+        "productName" : "Shoes"
+      }, {
         "price" : 10.0,
         "category" : "Sweets",
         "productName" : "Gummy Bears"
@@ -2044,14 +2048,14 @@
         "productName" : "Teddy Bear"
       } ],
       "age" : 9,
-      "averageScore" : 2.0
+      "averageScore" : 5.0
     }, {
       "lastName" : "Cantemir",
       "firstName" : "Maria",
       "niceScoreHistory" : [ 3.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Sweets" ],
-      "assignedBudget" : 95.65,
+      "assignedBudget" : 76.18141592920352,
       "id" : 11,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -2066,7 +2070,7 @@
       "niceScoreHistory" : [ 7.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Clothes" ],
-      "assignedBudget" : 223.18333333333334,
+      "assignedBudget" : 177.75663716814157,
       "id" : 14,
       "receivedGifts" : [ {
         "price" : 70.0,
@@ -2081,7 +2085,7 @@
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Sweets", "Toys" ],
-      "assignedBudget" : 159.41666666666666,
+      "assignedBudget" : 126.96902654867256,
       "id" : 15,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -2099,17 +2103,17 @@
       "firstName" : "Maria",
       "niceScoreHistory" : [ 10.0 ],
       "city" : "Brasov",
-      "giftsPreferences" : [ "Clothes", "Sweets", "Board Games" ],
-      "assignedBudget" : 318.8333333333333,
+      "giftsPreferences" : [ "Sweets", "Clothes", "Board Games" ],
+      "assignedBudget" : 253.93805309734512,
       "id" : 17,
       "receivedGifts" : [ {
-        "price" : 70.0,
-        "category" : "Clothes",
-        "productName" : "Shoes"
-      }, {
         "price" : 10.0,
         "category" : "Sweets",
         "productName" : "Gummy Bears"
+      }, {
+        "price" : 70.0,
+        "category" : "Clothes",
+        "productName" : "Shoes"
       }, {
         "price" : 10.0,
         "category" : "Board Games",
@@ -2123,7 +2127,7 @@
       "niceScoreHistory" : [ 6.0 ],
       "city" : "Timisoara",
       "giftsPreferences" : [ "Sweets", "Toys" ],
-      "assignedBudget" : 191.3,
+      "assignedBudget" : 152.36283185840705,
       "id" : 18,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -2144,7 +2148,7 @@
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Clothes", "Toys" ],
-      "assignedBudget" : 30.0,
+      "assignedBudget" : 25.018050541516242,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -2158,8 +2162,8 @@
       "firstName" : "Radu",
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Brasov",
-      "giftsPreferences" : [ "Clothes", "Toys", "Books" ],
-      "assignedBudget" : 24.0,
+      "giftsPreferences" : [ "Technology", "Clothes", "Toys", "Books" ],
+      "assignedBudget" : 20.014440433212993,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -2171,29 +2175,33 @@
     }, {
       "lastName" : "Cantemir",
       "firstName" : "Tudor",
-      "niceScoreHistory" : [ 4.0 ],
+      "niceScoreHistory" : [ 4.0, 10.0 ],
       "city" : "Bucuresti",
-      "giftsPreferences" : [ "Sweets", "Board Games", "Toys" ],
-      "assignedBudget" : 24.0,
+      "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Sweets" ],
+      "assignedBudget" : 35.02527075812274,
       "id" : 2,
       "receivedGifts" : [ {
         "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      }, {
-        "price" : 10.0,
         "category" : "Board Games",
         "productName" : "Uno"
+      }, {
+        "price" : 5.0,
+        "category" : "Toys",
+        "productName" : "Teddy Bear"
+      }, {
+        "price" : 10.0,
+        "category" : "Sweets",
+        "productName" : "Gummy Bears"
       } ],
       "age" : 10,
-      "averageScore" : 4.0
+      "averageScore" : 7.0
     }, {
       "lastName" : "Ionescu",
       "firstName" : "Andreea",
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
-      "assignedBudget" : 24.0,
+      "assignedBudget" : 20.014440433212993,
       "id" : 3,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -2212,7 +2220,7 @@
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Sweets", "Board Games", "Toys", "Books" ],
-      "assignedBudget" : 30.0,
+      "assignedBudget" : 25.018050541516242,
       "id" : 4,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -2232,10 +2240,10 @@
     }, {
       "lastName" : "Mihalache",
       "firstName" : "Andreea",
-      "niceScoreHistory" : [ 2.0 ],
+      "niceScoreHistory" : [ 2.0, 9.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Toys" ],
-      "assignedBudget" : 12.0,
+      "assignedBudget" : 33.35740072202166,
       "id" : 5,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -2243,14 +2251,14 @@
         "productName" : "Teddy Bear"
       } ],
       "age" : 15,
-      "averageScore" : 2.0
+      "averageScore" : 6.666666666666667
     }, {
       "lastName" : "Pop",
       "firstName" : "Maria",
-      "niceScoreHistory" : [ 3.0 ],
+      "niceScoreHistory" : [ 3.0, 10.0 ],
       "city" : "Iasi",
       "giftsPreferences" : [ "Technology", "Board Games" ],
-      "assignedBudget" : 18.0,
+      "assignedBudget" : 38.36101083032491,
       "id" : 7,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -2258,29 +2266,33 @@
         "productName" : "Uno"
       } ],
       "age" : 13,
-      "averageScore" : 3.0
+      "averageScore" : 7.666666666666667
     }, {
       "lastName" : "Mihalache",
       "firstName" : "Matei",
-      "niceScoreHistory" : [ 2.0 ],
+      "niceScoreHistory" : [ 2.0, 8.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
-      "assignedBudget" : 12.0,
+      "assignedBudget" : 25.018050541516242,
       "id" : 8,
       "receivedGifts" : [ {
         "price" : 10.0,
         "category" : "Sweets",
         "productName" : "Gummy Bears"
+      }, {
+        "price" : 5.0,
+        "category" : "Toys",
+        "productName" : "Teddy Bear"
       } ],
       "age" : 10,
-      "averageScore" : 2.0
+      "averageScore" : 5.0
     }, {
       "lastName" : "Cantemir",
       "firstName" : "Maria",
       "niceScoreHistory" : [ 3.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Sweets" ],
-      "assignedBudget" : 18.0,
+      "assignedBudget" : 15.010830324909744,
       "id" : 11,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -2295,7 +2307,7 @@
       "niceScoreHistory" : [ 7.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Clothes" ],
-      "assignedBudget" : 42.0,
+      "assignedBudget" : 35.02527075812274,
       "id" : 14,
       "receivedGifts" : [ ],
       "age" : 10,
@@ -2306,7 +2318,7 @@
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Sweets", "Toys" ],
-      "assignedBudget" : 30.0,
+      "assignedBudget" : 25.018050541516242,
       "id" : 15,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -2324,8 +2336,8 @@
       "firstName" : "Maria",
       "niceScoreHistory" : [ 10.0 ],
       "city" : "Brasov",
-      "giftsPreferences" : [ "Clothes", "Sweets", "Board Games" ],
-      "assignedBudget" : 60.0,
+      "giftsPreferences" : [ "Sweets", "Clothes", "Board Games" ],
+      "assignedBudget" : 50.036101083032484,
       "id" : 17,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -2344,7 +2356,7 @@
       "niceScoreHistory" : [ 6.0 ],
       "city" : "Timisoara",
       "giftsPreferences" : [ "Sweets", "Toys" ],
-      "assignedBudget" : 36.0,
+      "assignedBudget" : 30.021660649819488,
       "id" : 18,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -2363,7 +2375,7 @@
       "niceScoreHistory" : [ 7.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Clothes", "Toys" ],
-      "assignedBudget" : 42.0,
+      "assignedBudget" : 35.02527075812274,
       "id" : 19,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -2378,7 +2390,7 @@
       "niceScoreHistory" : [ 10.0 ],
       "city" : "Timisoara",
       "giftsPreferences" : [ "Clothes", "Sweets", "Toys", "Books" ],
-      "assignedBudget" : 60.0,
+      "assignedBudget" : 50.036101083032484,
       "id" : 20,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -2403,7 +2415,7 @@
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Clothes", "Toys" ],
-      "assignedBudget" : 21.02409638554217,
+      "assignedBudget" : 17.745762711864405,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -2417,8 +2429,8 @@
       "firstName" : "Radu",
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Brasov",
-      "giftsPreferences" : [ "Clothes", "Toys", "Books" ],
-      "assignedBudget" : 16.819277108433734,
+      "giftsPreferences" : [ "Technology", "Clothes", "Toys", "Books" ],
+      "assignedBudget" : 14.196610169491525,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -2430,30 +2442,11 @@
     }, {
       "lastName" : "Cantemir",
       "firstName" : "Tudor",
-      "niceScoreHistory" : [ 4.0 ],
+      "niceScoreHistory" : [ 4.0, 10.0 ],
       "city" : "Bucuresti",
-      "giftsPreferences" : [ "Sweets", "Board Games", "Toys" ],
-      "assignedBudget" : 16.819277108433734,
+      "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Sweets" ],
+      "assignedBudget" : 24.84406779661017,
       "id" : 2,
-      "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      }, {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
-      } ],
-      "age" : 11,
-      "averageScore" : 4.0
-    }, {
-      "lastName" : "Ionescu",
-      "firstName" : "Andreea",
-      "niceScoreHistory" : [ 4.0 ],
-      "city" : "Brasov",
-      "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
-      "assignedBudget" : 16.819277108433734,
-      "id" : 3,
       "receivedGifts" : [ {
         "price" : 10.0,
         "category" : "Board Games",
@@ -2462,6 +2455,21 @@
         "price" : 5.0,
         "category" : "Toys",
         "productName" : "Teddy Bear"
+      } ],
+      "age" : 11,
+      "averageScore" : 7.0
+    }, {
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "niceScoreHistory" : [ 4.0 ],
+      "city" : "Brasov",
+      "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
+      "assignedBudget" : 14.196610169491525,
+      "id" : 3,
+      "receivedGifts" : [ {
+        "price" : 10.0,
+        "category" : "Board Games",
+        "productName" : "Uno"
       } ],
       "age" : 15,
       "averageScore" : 4.0
@@ -2471,26 +2479,26 @@
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Sweets", "Board Games", "Toys", "Books" ],
-      "assignedBudget" : 21.02409638554217,
+      "assignedBudget" : 17.745762711864405,
       "id" : 4,
       "receivedGifts" : [ {
         "price" : 10.0,
         "category" : "Sweets",
         "productName" : "Gummy Bears"
       }, {
-        "price" : 10.0,
-        "category" : "Board Games",
-        "productName" : "Uno"
+        "price" : 5.0,
+        "category" : "Toys",
+        "productName" : "Teddy Bear"
       } ],
       "age" : 17,
       "averageScore" : 5.0
     }, {
       "lastName" : "Mihalache",
       "firstName" : "Andreea",
-      "niceScoreHistory" : [ 2.0 ],
+      "niceScoreHistory" : [ 2.0, 9.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Toys" ],
-      "assignedBudget" : 8.409638554216867,
+      "assignedBudget" : 23.661016949152543,
       "id" : 5,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -2498,14 +2506,14 @@
         "productName" : "Teddy Bear"
       } ],
       "age" : 16,
-      "averageScore" : 2.0
+      "averageScore" : 6.666666666666667
     }, {
       "lastName" : "Pop",
       "firstName" : "Maria",
-      "niceScoreHistory" : [ 3.0 ],
+      "niceScoreHistory" : [ 3.0, 10.0 ],
       "city" : "Iasi",
       "giftsPreferences" : [ "Technology", "Board Games" ],
-      "assignedBudget" : 12.6144578313253,
+      "assignedBudget" : 27.210169491525424,
       "id" : 7,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -2513,29 +2521,33 @@
         "productName" : "Uno"
       } ],
       "age" : 14,
-      "averageScore" : 3.0
+      "averageScore" : 7.666666666666667
     }, {
       "lastName" : "Mihalache",
       "firstName" : "Matei",
-      "niceScoreHistory" : [ 2.0 ],
+      "niceScoreHistory" : [ 2.0, 8.0 ],
       "city" : "Braila",
       "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
-      "assignedBudget" : 8.409638554216867,
+      "assignedBudget" : 17.745762711864405,
       "id" : 8,
       "receivedGifts" : [ {
+        "price" : 10.0,
+        "category" : "Sweets",
+        "productName" : "Gummy Bears"
+      }, {
         "price" : 5.0,
         "category" : "Toys",
         "productName" : "Teddy Bear"
       } ],
       "age" : 11,
-      "averageScore" : 2.0
+      "averageScore" : 5.0
     }, {
       "lastName" : "Cantemir",
       "firstName" : "Maria",
       "niceScoreHistory" : [ 3.0 ],
       "city" : "Craiova",
       "giftsPreferences" : [ "Sweets" ],
-      "assignedBudget" : 12.6144578313253,
+      "assignedBudget" : 10.647457627118644,
       "id" : 11,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -2550,7 +2562,7 @@
       "niceScoreHistory" : [ 7.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Clothes" ],
-      "assignedBudget" : 29.433734939759034,
+      "assignedBudget" : 24.84406779661017,
       "id" : 14,
       "receivedGifts" : [ ],
       "age" : 11,
@@ -2561,7 +2573,7 @@
       "niceScoreHistory" : [ 5.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Sweets", "Toys" ],
-      "assignedBudget" : 21.02409638554217,
+      "assignedBudget" : 17.745762711864405,
       "id" : 15,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -2579,8 +2591,8 @@
       "firstName" : "Maria",
       "niceScoreHistory" : [ 10.0 ],
       "city" : "Brasov",
-      "giftsPreferences" : [ "Clothes", "Sweets", "Board Games" ],
-      "assignedBudget" : 42.04819277108434,
+      "giftsPreferences" : [ "Sweets", "Clothes", "Board Games" ],
+      "assignedBudget" : 35.49152542372881,
       "id" : 17,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -2599,7 +2611,7 @@
       "niceScoreHistory" : [ 6.0 ],
       "city" : "Timisoara",
       "giftsPreferences" : [ "Sweets", "Toys" ],
-      "assignedBudget" : 25.2289156626506,
+      "assignedBudget" : 21.29491525423729,
       "id" : 18,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -2618,7 +2630,7 @@
       "niceScoreHistory" : [ 7.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Clothes", "Toys" ],
-      "assignedBudget" : 29.433734939759034,
+      "assignedBudget" : 24.84406779661017,
       "id" : 19,
       "receivedGifts" : [ {
         "price" : 5.0,
@@ -2633,7 +2645,7 @@
       "niceScoreHistory" : [ 10.0 ],
       "city" : "Timisoara",
       "giftsPreferences" : [ "Clothes", "Sweets", "Toys", "Books" ],
-      "assignedBudget" : 42.04819277108434,
+      "assignedBudget" : 35.49152542372881,
       "id" : 20,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -2643,10 +2655,6 @@
         "price" : 5.0,
         "category" : "Toys",
         "productName" : "Teddy Bear"
-      }, {
-        "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
       } ],
       "age" : 17,
       "averageScore" : 10.0
@@ -2656,7 +2664,7 @@
       "niceScoreHistory" : [ 6.0 ],
       "city" : "Timisoara",
       "giftsPreferences" : [ "Toys", "Books" ],
-      "assignedBudget" : 25.2289156626506,
+      "assignedBudget" : 21.29491525423729,
       "id" : 21,
       "receivedGifts" : [ {
         "price" : 5.0,

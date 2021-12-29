@@ -4,16 +4,20 @@ import children.Child;
 import commands.Command;
 import commands.score.CalculateScore;
 
-public class CalculateChildBudget implements Command {
+public final class CalculateChildBudget implements Command {
     private final Child child;
     private final double budgetUnit;
     private double budget;
 
-    public CalculateChildBudget(Child child, double scoresSum, double santaBudget) {
+    public CalculateChildBudget(final Child child, final double scoresSum,
+                                final double santaBudget) {
         this.child = child;
         this.budgetUnit = santaBudget / scoresSum;
     }
 
+    /**
+     * Calculates the budget allocated for the child
+     */
     @Override
     public void execute() {
         CalculateScore calculateScore = new CalculateScore(child);

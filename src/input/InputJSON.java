@@ -2,7 +2,6 @@ package input;
 
 import children.Child;
 import children.Update;
-import enums.Category;
 import northpole.Change;
 import northpole.Gift;
 import org.json.simple.JSONArray;
@@ -66,36 +65,24 @@ public final class InputJSON {
                 for (Object change : changes) {
                     int newSantaBudget = -1;
                     if (((JSONObject) change).get("newSantaBudget") != null) {
-                        newSantaBudget = ((Long) ((JSONObject) change).get("newSantaBudget")).intValue();
+                        newSantaBudget = ((Long) ((JSONObject) change).
+                                get("newSantaBudget")).intValue();
                     }
                     // We add the new gifts in a list
-                    List<Gift> newGifts = InputHelper.returnGifts((JSONArray) ((JSONObject) change).get("newGifts"));
+                    List<Gift> newGifts = InputHelper
+                            .returnGifts((JSONArray) ((JSONObject) change).get("newGifts"));
 
                     // We add the new children in a list
-                    List<Child> newChildren = InputHelper.returnChildren((JSONArray) ((JSONObject) change).get("newChildren"));
+                    List<Child> newChildren = InputHelper
+                            .returnChildren((JSONArray) ((JSONObject) change).get("newChildren"));
 
                     // We add the Children updates in a list
-                    List<Update> childrenUpdates = new ArrayList<>();
-                    JSONArray allNewUpdates = (JSONArray) ((JSONObject) change).get("childrenUpdates");
-                    if (allNewUpdates != null) {
-                        for (Object update : allNewUpdates) {
-                            int id = -1;
-                            if(((JSONObject) update).get("id") != null) {
-                                id = ((Long)((JSONObject) update).get("id")).intValue();
-                            }
-                            double niceScore = -1;
-                            if(((JSONObject) update).get("niceScore") != null) {
-                                niceScore = ((Long)((JSONObject) update).get("niceScore")).doubleValue();
-                            }
-                            JSONArray giftCategories = (JSONArray) ((JSONObject) update).get("giftsPreferences");
-                            List<String> giftsPreferences = new ArrayList<>();
-                            for (Object giftCategory : giftCategories) {
-                                String gift = (String) giftCategory;
-                                giftsPreferences.add(gift);
-                            }
-                        }
-                    }
-                    Change newChange = new Change(newSantaBudget, newGifts, newChildren, childrenUpdates);
+                    List<Update> childrenUpdates = InputHelper
+                            .returnUpdates((JSONArray) ((JSONObject) change)
+                                    .get("childrenUpdates"));
+
+                    Change newChange = new Change(newSantaBudget, newGifts,
+                            newChildren, childrenUpdates);
                     annualChanges.add(newChange);
                 }
             }

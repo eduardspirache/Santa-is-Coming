@@ -5,8 +5,8 @@ import commands.Command;
 
 import static common.Constants.BABY_SCORE;
 
-public class BabyScore extends Score implements Command {
-    public BabyScore(Child child) {
+public final class BabyScore extends Score implements Command {
+    public BabyScore(final Child child) {
         super(child);
     }
 

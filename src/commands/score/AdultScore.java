@@ -3,8 +3,8 @@ package commands.score;
 import children.Child;
 import commands.Command;
 
-public class AdultScore extends Score implements Command {
-    public AdultScore(Child child) {
+public final class AdultScore extends Score implements Command {
+    public AdultScore(final Child child) {
         super(child);
     }
 

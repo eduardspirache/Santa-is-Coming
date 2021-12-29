@@ -203,7 +203,7 @@
       "niceScoreHistory" : [ 8.0 ],
       "city" : "Timisoara",
       "giftsPreferences" : [ "Sweets" ],
-      "assignedBudget" : 74.66666666666667,
+      "assignedBudget" : 84.43979057591623,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -218,7 +218,7 @@
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Toys" ],
-      "assignedBudget" : 37.333333333333336,
+      "assignedBudget" : 42.21989528795812,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 20.0,
@@ -230,29 +230,29 @@
     }, {
       "lastName" : "Popescu",
       "firstName" : "Miruna",
-      "niceScoreHistory" : [ 9.0 ],
+      "niceScoreHistory" : [ 9.0, 2.0 ],
       "city" : "Timisoara",
-      "giftsPreferences" : [ "Technology", "Board Games", "Sweets" ],
-      "assignedBudget" : 84.0,
+      "giftsPreferences" : [ "Toys", "Technology", "Board Games", "Sweets" ],
+      "assignedBudget" : 45.738219895287955,
       "id" : 2,
       "receivedGifts" : [ {
-        "price" : 30.0,
-        "category" : "Board Games",
-        "productName" : "Monopoly"
+        "price" : 20.0,
+        "category" : "Toys",
+        "productName" : "Car"
       }, {
         "price" : 10.0,
         "category" : "Sweets",
         "productName" : "Gummy Bears"
       } ],
       "age" : 18,
-      "averageScore" : 9.0
+      "averageScore" : 4.333333333333333
     }, {
       "lastName" : "Stoica",
       "firstName" : "Mihai",
       "niceScoreHistory" : [ 7.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Books", "Sweets" ],
-      "assignedBudget" : 65.33333333333334,
+      "assignedBudget" : 73.8848167539267,
       "id" : 4,
       "receivedGifts" : [ {
         "price" : 25.0,
@@ -268,18 +268,22 @@
     }, {
       "lastName" : "Popescu",
       "firstName" : "Mihai",
-      "niceScoreHistory" : [ 8.0 ],
+      "niceScoreHistory" : [ 8.0, 9.0 ],
       "city" : "Craiova",
-      "giftsPreferences" : [ "Toys" ],
-      "assignedBudget" : 74.66666666666667,
+      "giftsPreferences" : [ "Board Games", "Toys" ],
+      "assignedBudget" : 89.717277486911,
       "id" : 5,
       "receivedGifts" : [ {
+        "price" : 30.0,
+        "category" : "Board Games",
+        "productName" : "Monopoly"
+      }, {
         "price" : 20.0,
         "category" : "Toys",
         "productName" : "Car"
       } ],
       "age" : 5,
-      "averageScore" : 8.0
+      "averageScore" : 8.5
     } ]
   }, {
     "children" : [ {
@@ -288,7 +292,7 @@
       "niceScoreHistory" : [ 8.0 ],
       "city" : "Timisoara",
       "giftsPreferences" : [ "Sweets" ],
-      "assignedBudget" : 289.48148148148147,
+      "assignedBudget" : 284.2181818181818,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -303,7 +307,7 @@
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Toys" ],
-      "assignedBudget" : 144.74074074074073,
+      "assignedBudget" : 142.1090909090909,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 20.0,
@@ -318,7 +322,7 @@
       "niceScoreHistory" : [ 7.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Books", "Sweets" ],
-      "assignedBudget" : 253.29629629629628,
+      "assignedBudget" : 248.69090909090906,
       "id" : 4,
       "receivedGifts" : [ {
         "price" : 25.0,
@@ -334,18 +338,22 @@
     }, {
       "lastName" : "Popescu",
       "firstName" : "Mihai",
-      "niceScoreHistory" : [ 8.0 ],
+      "niceScoreHistory" : [ 8.0, 9.0 ],
       "city" : "Craiova",
-      "giftsPreferences" : [ "Toys" ],
-      "assignedBudget" : 289.48148148148147,
+      "giftsPreferences" : [ "Board Games", "Toys" ],
+      "assignedBudget" : 301.98181818181814,
       "id" : 5,
       "receivedGifts" : [ {
+        "price" : 30.0,
+        "category" : "Board Games",
+        "productName" : "Monopoly"
+      }, {
         "price" : 20.0,
         "category" : "Toys",
         "productName" : "Car"
       } ],
       "age" : 6,
-      "averageScore" : 8.0
+      "averageScore" : 8.5
     } ]
   }, {
     "children" : [ {
@@ -354,7 +362,7 @@
       "niceScoreHistory" : [ 8.0 ],
       "city" : "Timisoara",
       "giftsPreferences" : [ "Sweets" ],
-      "assignedBudget" : 111.4074074074074,
+      "assignedBudget" : 109.38181818181818,
       "id" : 0,
       "receivedGifts" : [ {
         "price" : 10.0,
@@ -369,7 +377,7 @@
       "niceScoreHistory" : [ 4.0 ],
       "city" : "Brasov",
       "giftsPreferences" : [ "Toys" ],
-      "assignedBudget" : 55.7037037037037,
+      "assignedBudget" : 54.69090909090909,
       "id" : 1,
       "receivedGifts" : [ {
         "price" : 20.0,
@@ -384,7 +392,7 @@
       "niceScoreHistory" : [ 7.0 ],
       "city" : "Bucuresti",
       "giftsPreferences" : [ "Books", "Sweets" ],
-      "assignedBudget" : 97.48148148148148,
+      "assignedBudget" : 95.7090909090909,
       "id" : 4,
       "receivedGifts" : [ {
         "price" : 25.0,
@@ -400,18 +408,22 @@
     }, {
       "lastName" : "Popescu",
       "firstName" : "Mihai",
-      "niceScoreHistory" : [ 8.0 ],
+      "niceScoreHistory" : [ 8.0, 9.0 ],
       "city" : "Craiova",
-      "giftsPreferences" : [ "Toys" ],
-      "assignedBudget" : 111.4074074074074,
+      "giftsPreferences" : [ "Board Games", "Toys" ],
+      "assignedBudget" : 116.21818181818182,
       "id" : 5,
       "receivedGifts" : [ {
+        "price" : 30.0,
+        "category" : "Board Games",
+        "productName" : "Monopoly"
+      }, {
         "price" : 20.0,
         "category" : "Toys",
         "productName" : "Car"
       } ],
       "age" : 7,
-      "averageScore" : 8.0
+      "averageScore" : 8.5
     } ]
   } ]
 }

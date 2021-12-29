@@ -7,8 +7,6 @@ import commands.budget.CalculateChildBudget;
 import commands.budget.CalculateScoresSum;
 import commands.changes.MakeChanges;
 import commands.gifts.SendGifts;
-import commands.score.CalculateScore;
-import database.Database;
 import input.Input;
 import input.InputJSON;
 import northpole.Change;
@@ -18,11 +16,14 @@ import org.json.simple.JSONObject;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.lang.reflect.Field;
-import java.util.LinkedHashMap;
 import java.util.List;
 
-import static common.Constants.*;
+import static common.Constants.INPUT_PATH;
+import static common.Constants.TESTS_NUMBER;
+import static common.Constants.FILE_EXTENSION;
+import static common.Constants.OUTPUT_PATH;
+import static common.Constants.TEEN_AGE;
+
 
 /**
  * Class used to run the code
@@ -42,12 +43,17 @@ public final class Main {
         for (int i = 1; i <= TESTS_NUMBER; i++) {
             String inputPath = INPUT_PATH + i + FILE_EXTENSION;
             String outputPath = OUTPUT_PATH + i + FILE_EXTENSION;
-            String refPath = REF_PATH + i;
             action(inputPath, outputPath);
         }
         Checker.calculateScore();
     }
 
+    /**
+     * Main function
+     * @param filePath1
+     * @param filePath2
+     * @throws IOException
+     */
     public static void action(final String filePath1, final String filePath2) throws IOException {
         InputJSON inputJSON = new InputJSON(filePath1);
         FileWriter fileWriter = new FileWriter(filePath2);
@@ -55,7 +61,6 @@ public final class Main {
         JSONArray outputAnnualChildren = new JSONArray();
 
         Input input = inputJSON.readData();
-        Database database = new Database(input.getChildList(), input.getGiftList());
 
         for (int i = 0; i <= input.getNumberOfYears(); i++) {
             /////////////// Do not modify /////////////////
@@ -75,7 +80,7 @@ public final class Main {
             // Remove young adults
             input.getChildList().removeIf(a -> a.getAge() > TEEN_AGE);
 
-            // Calculate the average score sums
+            // Calculate the average score sums and also sets each child's nice score
             CalculateScoresSum averageScoresSum = new CalculateScoresSum(input.getChildList());
             averageScoresSum.execute();
             double scoresSum = averageScoresSum.getSum();
@@ -86,24 +91,21 @@ public final class Main {
                         scoresSum, input.getSantaBudget());
                 childBudget.execute();
                 double assignedBudget = childBudget.getBudget();
-                // Calculate the child's average score (nice score)
-                CalculateScore calculateScore = new CalculateScore(child);
-                calculateScore.execute();
-                double niceScore = calculateScore.getAverageScore();
                 // Store the gifts
                 SendGifts sendGifts = new SendGifts(child, assignedBudget, input.getGiftList());
                 sendGifts.execute();
                 List<Gift> receivedGifts = sendGifts.getReceivedGifts();
 
+                Child copyChild = new Child(child);
                 JSONObject jsonChild = new JSONObject();
-                jsonChild.put("id", child.getId());
-                jsonChild.put("lastName", child.getLastName());
-                jsonChild.put("firstName", child.getFirstName());
-                jsonChild.put("city", child.getCity());
-                jsonChild.put("age", child.getAge());
-                jsonChild.put("giftsPreferences", child.getGiftsPreferences());
-                jsonChild.put("averageScore", niceScore);
-                jsonChild.put("niceScoreHistory", child.getScoreList());
+                jsonChild.put("id", copyChild.getId());
+                jsonChild.put("lastName", copyChild.getLastName());
+                jsonChild.put("firstName", copyChild.getFirstName());
+                jsonChild.put("city", copyChild.getCity());
+                jsonChild.put("age", copyChild.getAge());
+                jsonChild.put("giftsPreferences", copyChild.getGiftsPreferences());
+                jsonChild.put("averageScore", child.getNiceScore());
+                jsonChild.put("niceScoreHistory", copyChild.getScoreList());
                 jsonChild.put("assignedBudget", assignedBudget);
                 JSONArray receivedJSONGifts = new JSONArray();
                 for (Gift gift : receivedGifts) {

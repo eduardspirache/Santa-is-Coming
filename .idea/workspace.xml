@@ -1,55 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d662010a-d6c5-4bb5-92a6-5b13c2206c94" name="Changes" comment="Made the frame for Input">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_10.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_11.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_12.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_13.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_14.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_15.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_16.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_17.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_18.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_19.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_20.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_21.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_22.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_23.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_24.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_25.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/out_9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/budget/CalculateChildBudget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/budget/CalculateScoresSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/changes/MakeChanges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/gifts/SendGifts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/score/AdultScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/score/BabyScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/score/CalculateScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/score/KidScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/score/Score.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/score/ScoreFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/score/TeenScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/Database.java" afterDir="false" />
+    <list default="true" id="d662010a-d6c5-4bb5-92a6-5b13c2206c94" name="Changes" comment="Done">
+      <change afterPath="$PROJECT_DIR$/src/main/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_11.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_12.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_14.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_15.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_15.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_16.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_17.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_18.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_19.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_19.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_20.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_22.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_22.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_23.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_24.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_24.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_25.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_7.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/children/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/children/Child.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/children/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/children/Update.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/budget/CalculateChildBudget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/budget/CalculateChildBudget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/budget/CalculateScoresSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/budget/CalculateScoresSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/changes/MakeChanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/changes/MakeChanges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/gifts/SendGifts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/gifts/SendGifts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/score/AdultScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/score/AdultScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/score/BabyScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/score/BabyScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/score/CalculateScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/score/CalculateScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/score/KidScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/score/KidScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/score/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/score/Score.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/score/ScoreFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/score/ScoreFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/score/TeenScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/score/TeenScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/Database.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/input/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/Input.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/input/InputHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/InputHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/input/InputJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/InputJSON.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/northpole/Change.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/Change.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/northpole/Gift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/Gift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/northpole/Santa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/Santa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +58,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="21v2UmCFgudLtO2NUqgyGG5QiA1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -85,7 +85,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -114,9 +114,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Test" />
+      <module name="proiect1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkstyle.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/src/checker/checkstyle.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/src/checker" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Shell Script.checkstyle.sh" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.NewMain" />
       </list>
     </recent_temporary>
@@ -135,7 +165,7 @@
       <workItem from="1640325883973" duration="951000" />
       <workItem from="1640593420816" duration="8254000" />
       <workItem from="1640707066690" duration="1321000" />
-      <workItem from="1640759065693" duration="24259000" />
+      <workItem from="1640759065693" duration="33382000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1640101737197</created>
@@ -151,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640246446826</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="20 points">
+      <created>1640791424646</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640791424646</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,18 +210,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit" />
     <MESSAGE value="Made the frame for Input" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made the frame for Input" />
+    <MESSAGE value="20 points" />
+    <MESSAGE value="Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/Main.java</url>
-          <line>91</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="input.InputJSON" memberName="inputPath" />

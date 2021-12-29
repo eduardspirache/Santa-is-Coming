@@ -3,18 +3,18 @@ package children;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Child {
+public final class Child {
     private final int id;
     private final String lastName;
     private final String firstName;
     private int age;
     private final String city;
-    private final double niceScore;
-    private List<Double> scoreList;
+    private double niceScore;
+    private final List<Double> scoreList;
     private List<String> giftsPreferences;
 
-    public Child(int id, String lastName, String firstName, int age, String city, double niceScore,
-                 List<String> giftsPreferences) {
+    public Child(final int id, final String lastName, final String firstName, final int age,
+                 final String city, final double niceScore, final List<String> giftsPreferences) {
         this.id = id;
         this.lastName = lastName;
         this.firstName = firstName;
@@ -24,6 +24,17 @@ public class Child {
         scoreList = new ArrayList<>();
         this.scoreList.add(niceScore);
         this.giftsPreferences = giftsPreferences;
+    }
+
+    public Child(final Child child) {
+        this.id = child.getId();
+        this.lastName = child.getLastName();
+        this.firstName = child.getFirstName();
+        this.age = child.getAge();
+        this.city = child.getCity();
+        this.niceScore = child.getNiceScore();
+        scoreList = new ArrayList<>(child.getScoreList());
+        this.giftsPreferences = new ArrayList<>(child.getGiftsPreferences());
     }
 
     public int getId() {
@@ -42,7 +53,7 @@ public class Child {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(final int age) {
         this.age = age;
     }
 
@@ -58,15 +69,15 @@ public class Child {
         return scoreList;
     }
 
-    public void setScoreList(List<Double> scoreList) {
-        this.scoreList = scoreList;
+    public void setNiceScore(final double niceScore) {
+        this.niceScore = niceScore;
     }
 
     public List<String> getGiftsPreferences() {
         return giftsPreferences;
     }
 
-    public void setGiftsPreferences(List<String> giftsPreferences) {
+    public void setGiftsPreferences(final List<String> giftsPreferences) {
         this.giftsPreferences = giftsPreferences;
     }
 }
