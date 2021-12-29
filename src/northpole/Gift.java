@@ -4,7 +4,7 @@ import enums.Category;
 
 public class Gift {
     private final String productName;
-    private final int price;
+    private final double price;
     private final String category;
 
     public Gift(String productName, int price, String category) {
@@ -17,7 +17,7 @@ public class Gift {
         return productName;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 

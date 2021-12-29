@@ -1,7 +1,6 @@
 package children;
 
-import enums.Category;
-
+import java.util.ArrayList;
 import java.util.List;
 
 public class Child {
@@ -10,7 +9,8 @@ public class Child {
     private final String firstName;
     private int age;
     private final String city;
-    private double niceScore;
+    private final double niceScore;
+    private List<Double> scoreList;
     private List<String> giftsPreferences;
 
     public Child(int id, String lastName, String firstName, int age, String city, double niceScore,
@@ -21,6 +21,8 @@ public class Child {
         this.age = age;
         this.city = city;
         this.niceScore = niceScore;
+        scoreList = new ArrayList<>();
+        this.scoreList.add(niceScore);
         this.giftsPreferences = giftsPreferences;
     }
 
@@ -52,8 +54,12 @@ public class Child {
         return niceScore;
     }
 
-    public void setNiceScore(double niceScore) {
-        this.niceScore = niceScore;
+    public List<Double> getScoreList() {
+        return scoreList;
+    }
+
+    public void setScoreList(List<Double> scoreList) {
+        this.scoreList = scoreList;
     }
 
     public List<String> getGiftsPreferences() {
