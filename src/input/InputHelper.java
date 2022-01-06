@@ -51,8 +51,15 @@ public final class InputHelper {
                         giftsPreferences.add(newCategory);
                     }
                 }
+                int niceScoreBonus = -1;
+                if (((JSONObject) child).get("niceScoreBonus") != null) {
+                    niceScoreBonus = ((Long) ((JSONObject) child).get("niceScoreBonus")).intValue();
+                }
+
+                String elf = ((String) ((JSONObject) child).get("age"));
+
                 Child newChild = new Child(id, lastName, firstName, age,
-                        city, niceScore, giftsPreferences);
+                        city, niceScore, giftsPreferences, niceScoreBonus, elf);
                 childList.add(newChild);
             }
         }
@@ -75,7 +82,12 @@ public final class InputHelper {
 
                 String category = (String) ((JSONObject) gift).get("category");
 
-                Gift newGift = new Gift(productName, price, category);
+                int quantity = -1;
+                if (((JSONObject) gift).get("quantity") != null) {
+                    quantity = (int) ((Long) ((JSONObject) gift).get("quantity")).intValue();
+                }
+
+                Gift newGift = new Gift(productName, price, category, quantity);
                 santaGiftList.add(newGift);
             }
         }
@@ -104,7 +116,8 @@ public final class InputHelper {
                     String gift = (String) giftCategory;
                     giftsPreferences.add(gift);
                 }
-                Update newUpdate = new Update(id, niceScore, giftsPreferences);
+                String elf = ((String) ((JSONObject) update).get("elf"));
+                Update newUpdate = new Update(id, niceScore, giftsPreferences, elf);
                 childrenUpdates.add(newUpdate);
             }
         }

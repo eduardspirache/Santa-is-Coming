@@ -1,0 +1,25 @@
+Santa Claus is coming to town
+Proiect - Spirache Eduard-Mihai, 322 CA
+
+
+Am incercat sa modularizez codul cat mai bine posibil folosind Command Pattern, Factory Pattern
+si implementari bazate pe claste abstracte. De asemenea, comentariile amplasate in cod explica
+destul de bine anumite functionalitati.
+
+Pentru command pattern am creat un package separat, unde se regasesc mai multe package-uri
+ce contin diferite comenzi.
+
+Pentru clasele ce calculeaza scorul specific fiecarui copil, am creat clasa abstracta Score,
+care este extinsa de categoriile de copii (Baby, Kid, Teen, Adult). De asemenea, pentru
+a calcula scorul, trebuie sa determinam din ce clasa face parte copilul, asa ca am folosit
+ScoreFactory pentru aceasta functionalitate. In main am apelat funciat CalculateScore
+in fiecare runda, pentru fiecare copil. Aceasta returneaza averageScore.
+
+Pentru buget, am construit doua functii:
+- CalculateScoresSum -> Insumeaza toate averageScore-urile copiilor
+- CalculateChildBudget -> Calculeaza bugetul mosului pentru fiecare copil (functie apelata,
+de asemenea, in fiecare runda, pentru fiecare copil).
+CalculateScoreSum apeleaza CalculateScore in interiorul sau si modifica parametrul
+"niceScore" al fiecarui copil la inceputul fiecarei runde.
+
+

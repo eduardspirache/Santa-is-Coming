@@ -12,9 +12,12 @@ public final class Child {
     private double niceScore;
     private final List<Double> scoreList;
     private List<String> giftsPreferences;
+    private final int niceScoreBonus;
+    private final String elf;
 
     public Child(final int id, final String lastName, final String firstName, final int age,
-                 final String city, final double niceScore, final List<String> giftsPreferences) {
+                 final String city, final double niceScore, final List<String> giftsPreferences,
+                 final int niceScoreBonus, final String elf) {
         this.id = id;
         this.lastName = lastName;
         this.firstName = firstName;
@@ -24,6 +27,8 @@ public final class Child {
         scoreList = new ArrayList<>();
         this.scoreList.add(niceScore);
         this.giftsPreferences = giftsPreferences;
+        this.niceScoreBonus = niceScoreBonus;
+        this.elf = elf;
     }
 
     public Child(final Child child) {
@@ -35,6 +40,8 @@ public final class Child {
         this.niceScore = child.getNiceScore();
         scoreList = new ArrayList<>(child.getScoreList());
         this.giftsPreferences = new ArrayList<>(child.getGiftsPreferences());
+        this.niceScoreBonus = child.getNiceScoreBonus();
+        this.elf = child.getElf();
     }
 
     public int getId() {
@@ -79,5 +86,13 @@ public final class Child {
 
     public void setGiftsPreferences(final List<String> giftsPreferences) {
         this.giftsPreferences = giftsPreferences;
+    }
+
+    public int getNiceScoreBonus() {
+        return niceScoreBonus;
+    }
+
+    public String getElf() {
+        return elf;
     }
 }

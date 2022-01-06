@@ -81,8 +81,11 @@ public final class InputJSON {
                             .returnUpdates((JSONArray) ((JSONObject) change)
                                     .get("childrenUpdates"));
 
+                    String strategy = ((String) ((JSONObject) change).
+                            get("newSantaBudget"));
+
                     Change newChange = new Change(newSantaBudget, newGifts,
-                            newChildren, childrenUpdates);
+                            newChildren, childrenUpdates, strategy);
                     annualChanges.add(newChange);
                 }
             }
