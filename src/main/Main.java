@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import commands.budget.CalculateChildBudget;
 import commands.budget.CalculateScoresSum;
 import commands.changes.MakeChanges;
+import commands.changes.RemoveDuplicateCategories;
 import commands.gifts.strategy.GiftStrategy;
 import commands.gifts.strategy.GiftStrategyFactory;
 import northpole.Santa;
@@ -89,7 +90,8 @@ public final class Main {
             // Remove young adults
             input.getChildList().removeIf(a -> a.getAge() > TEEN_AGE);
             // Remove same category preferences (duplicates)
-
+            RemoveDuplicateCategories remDup = new RemoveDuplicateCategories(input.getChildList());
+            remDup.execute();
 
             // Initialize Santa
             Santa santa = Santa.getInstance();

@@ -223,9 +223,9 @@
       "assignedBudget" : 31.240310077519386,
       "id" : 2,
       "receivedGifts" : [ {
-        "price" : 20.0,
+        "price" : 30.0,
         "category" : "Sweets",
-        "productName" : "Bag of Candy"
+        "productName" : "Milk and Cookies"
       } ],
       "age" : 13,
       "averageScore" : 5.166666666666667
@@ -238,9 +238,9 @@
       "assignedBudget" : 48.372093023255815,
       "id" : 3,
       "receivedGifts" : [ {
-        "price" : 20.0,
+        "price" : 30.0,
         "category" : "Sweets",
-        "productName" : "Bag of Candy"
+        "productName" : "Milk and Cookies"
       }, {
         "price" : 15.0,
         "category" : "Toys",
@@ -288,11 +288,7 @@
       "giftsPreferences" : [ "Books", "Sweets", "Clothes" ],
       "assignedBudget" : 36.75105485232068,
       "id" : 2,
-      "receivedGifts" : [ {
-        "price" : 20.0,
-        "category" : "Sweets",
-        "productName" : "Bag of Candy"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 14,
       "averageScore" : 6.7
     }, {
@@ -304,9 +300,9 @@
       "assignedBudget" : 43.881856540084385,
       "id" : 3,
       "receivedGifts" : [ {
-        "price" : 30.0,
-        "category" : "Sweets",
-        "productName" : "Milk and Cookies"
+        "price" : 15.0,
+        "category" : "Toys",
+        "productName" : "Castle"
       } ],
       "age" : 8,
       "averageScore" : 8.0

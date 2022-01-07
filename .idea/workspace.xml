@@ -2,14 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d662010a-d6c5-4bb5-92a6-5b13c2206c94" name="Changes" comment="49 Points">
+      <change afterPath="$PROJECT_DIR$/output/out_26.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/out_27.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/out_28.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/out_29.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/out_30.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ref/ref_test20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ref/ref_test21.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ref/ref_test22.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ref/ref_test23.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ref/ref_test24.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ref/ref_test25.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ref/ref_test26.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ref/ref_test27.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ref/ref_test28.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ref/ref_test29.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ref/ref_test30.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/changes/RemoveDuplicateCategories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test21.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test22.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test23.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test24.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test25.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test26.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test27.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test28.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test29.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test30.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/libs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/checker/Checker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/checker/Checker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/commands/budget/CalculateScoresSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/commands/budget/CalculateScoresSum.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proiect1/commands/score/CalculateScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/commands/score/CalculateScore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/common/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/common/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/main/ConvertToJSONObj.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/main/ConvertToJSONObj.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/out_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/out_15.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_15.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_16.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_20.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_22.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_22.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_23.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_24.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_24.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_25.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/Checker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/children/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/children/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/children/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/children/Update.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/budget/CalculateChildBudget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/budget/CalculateChildBudget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/commands/budget/CalculateScoresSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/budget/CalculateScoresSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/changes/MakeChanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/changes/MakeChanges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/gifts/SameCategoryGifts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/gifts/SameCategoryGifts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/gifts/SendChildListGifts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/gifts/SendChildListGifts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/gifts/SendGifts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/gifts/SendGifts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/gifts/strategy/GiftStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/gifts/strategy/GiftStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/gifts/strategy/GiftStrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/gifts/strategy/GiftStrategyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/gifts/strategy/IdGiftStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/gifts/strategy/IdGiftStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/gifts/strategy/NiceCityGiftStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/gifts/strategy/NiceCityGiftStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/gifts/strategy/NiceScoreGiftStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/gifts/strategy/NiceScoreGiftStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/score/AdultScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/score/AdultScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/score/BabyScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/score/BabyScore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/commands/score/CalculateScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/score/CalculateScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/score/CityNiceScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/score/CityNiceScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/score/KidScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/score/KidScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/score/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/score/Score.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/score/ScoreFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/score/ScoreFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/score/TeenScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/score/TeenScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input/InputHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/InputHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input/InputJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/InputJSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ConvertToJSONObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ConvertToJSONObj.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/northpole/Change.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/Change.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/northpole/Gift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/Gift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/northpole/Santa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/Santa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/northpole/elves/BlackElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/elves/BlackElf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/northpole/elves/Elf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/elves/Elf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/northpole/elves/ElfFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/elves/ElfFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/northpole/elves/PinkElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/elves/PinkElf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/northpole/elves/WhiteElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/elves/WhiteElf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/northpole/elves/YellowElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/elves/YellowElf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test16.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test16.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +136,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="proiect1" />
@@ -113,8 +193,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Shell Script.checkstyle.sh" />
         <item itemvalue="Application.NewMain" />
       </list>
@@ -250,15 +330,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="49 Points" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/Main.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="input.Input" memberName="childList" />

@@ -38,11 +38,13 @@ public class ConvertToJSONObj implements Command {
         jsonChild.put("assignedBudget", santa.getBudgetList().get(child.getId()));
         JSONArray receivedJSONGifts = new JSONArray();
         for (Gift gift : child.getReceivedRoundGifts()) {
-            JSONObject jsonGift = new JSONObject();
-            jsonGift.put("productName", gift.getProductName());
-            jsonGift.put("price", gift.getPrice());
-            jsonGift.put("category", gift.getCategory());
-            receivedJSONGifts.add(jsonGift);
+            if (gift != null) {
+                JSONObject jsonGift = new JSONObject();
+                jsonGift.put("productName", gift.getProductName());
+                jsonGift.put("price", gift.getPrice());
+                jsonGift.put("category", gift.getCategory());
+                receivedJSONGifts.add(jsonGift);
+            }
         }
         jsonChild.put("receivedGifts", receivedJSONGifts);
     }
