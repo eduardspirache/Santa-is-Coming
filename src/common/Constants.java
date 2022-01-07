@@ -15,6 +15,13 @@ public final class Constants {
     public static final Integer BABY_AGE = 5;
     public static final Integer KID_AGE = 12;
     public static final Integer TEEN_AGE = 18;
+    public static final String ID = "id";
+    public static final String NICE_SCORE = "niceScore";
+    public static final String NICE_SCORE_CITY = "niceScoreCity";
+    public static final String YELLOW_ELF = "yellow";
+    public static final String BLACK_ELF = "black";
+    public static final String PINK_ELF = "pink";
+    public static final String WHITE_ELF = "white";
 
     private Constants() {
         //constructor for checkstyle

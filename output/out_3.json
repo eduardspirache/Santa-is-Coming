@@ -78,10 +78,6 @@
         "category" : "Sweets",
         "productName" : "Chocolate"
       }, {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
-      }, {
         "price" : 10.0,
         "category" : "Board Games",
         "productName" : "Uno"
@@ -102,10 +98,6 @@
         "price" : 15.0,
         "category" : "Sweets",
         "productName" : "Chocolate"
-      }, {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
       }, {
         "price" : 10.0,
         "category" : "Board Games",
@@ -137,10 +129,6 @@
         "category" : "Board Games",
         "productName" : "Uno"
       }, {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
-      }, {
         "price" : 45.0,
         "category" : "Clothes",
         "productName" : "Dress"
@@ -168,10 +156,6 @@
         "category" : "Sweets",
         "productName" : "Chocolate"
       }, {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
-      }, {
         "price" : 10.0,
         "category" : "Board Games",
         "productName" : "Uno"
@@ -189,14 +173,6 @@
       "assignedBudget" : 103.15044247787613,
       "id" : 0,
       "receivedGifts" : [ {
-        "price" : 15.0,
-        "category" : "Sweets",
-        "productName" : "Chocolate"
-      }, {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
-      }, {
         "price" : 10.0,
         "category" : "Board Games",
         "productName" : "Uno"
@@ -226,14 +202,6 @@
         "price" : 45.0,
         "category" : "Clothes",
         "productName" : "Dress"
-      }, {
-        "price" : 15.0,
-        "category" : "Sweets",
-        "productName" : "Chocolate"
-      }, {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
       }, {
         "price" : 10.0,
         "category" : "Board Games",
@@ -266,14 +234,6 @@
         "price" : 45.0,
         "category" : "Clothes",
         "productName" : "Dress"
-      }, {
-        "price" : 15.0,
-        "category" : "Sweets",
-        "productName" : "Chocolate"
-      }, {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
       }, {
         "price" : 10.0,
         "category" : "Board Games",

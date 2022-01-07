@@ -5,7 +5,6 @@ import commands.Command;
 import northpole.Gift;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
 public final class SendGifts implements Command {
@@ -26,10 +25,12 @@ public final class SendGifts implements Command {
     }
 
     /**
-     * Function iterates through both the list of children gift categories and
+     * Function iterates through both the list of child's gift categories and
      * the list of gifts Santa can provide, searching for those that can be found
      * in both lists.
-     * It stores all the gifts children receive in a list.
+     * It tries to give the cheapest gift from each category if the quantity is positive.
+     * If not, it tries to give the next cheapest if quantity > 0 etc.
+     * It stores all the gifts the child receives in a list.
      */
     @Override
     public void execute() {
@@ -42,9 +43,10 @@ public final class SendGifts implements Command {
             Gift gift;
             if (sameCategoryGiftsList.size() > 0) {
                 gift = sameCategoryGiftsList.get(0);
-                if (budget >= gift.getPrice()) {
+                if(gift.getQuantity() > 0 && budget >= gift.getPrice()) {
                     receivedGifts.add(gift);
                     budget -= gift.getPrice();
+                    gift.setQuantity(gift.getQuantity() - 1);
                 }
             }
         }

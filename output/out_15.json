@@ -137,10 +137,6 @@
         "productName" : "Dress"
       }, {
         "price" : 15.0,
-        "category" : "Sweets",
-        "productName" : "Chocolate"
-      }, {
-        "price" : 15.0,
         "category" : "Toys",
         "productName" : "Castle"
       } ],
@@ -157,10 +153,6 @@
       "assignedBudget" : 2824.6774193548385,
       "id" : 0,
       "receivedGifts" : [ {
-        "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
-      }, {
         "price" : 45.0,
         "category" : "Clothes",
         "productName" : "Dress"
@@ -168,10 +160,6 @@
         "price" : 15.0,
         "category" : "Toys",
         "productName" : "Castle"
-      }, {
-        "price" : 15.0,
-        "category" : "Sweets",
-        "productName" : "Chocolate"
       } ],
       "age" : 8,
       "averageScore" : 105.5
@@ -187,10 +175,6 @@
         "price" : 45.0,
         "category" : "Clothes",
         "productName" : "Dress"
-      }, {
-        "price" : 15.0,
-        "category" : "Sweets",
-        "productName" : "Chocolate"
       }, {
         "price" : 15.0,
         "category" : "Toys",

@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d662010a-d6c5-4bb5-92a6-5b13c2206c94" name="Changes" comment="Finished Elves and replaced Checker">
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/checker/Checker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/checker/Checker.class" afterDir="false" />
+    <list default="true" id="d662010a-d6c5-4bb5-92a6-5b13c2206c94" name="Changes" comment="Refactored elves">
+      <change afterPath="$PROJECT_DIR$/src/commands/gifts/SendChildListGifts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/gifts/strategy/GiftStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/gifts/strategy/GiftStrategyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/gifts/strategy/IdGiftStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/gifts/strategy/NiceCityGiftStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/gifts/strategy/NiceScoreGiftStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ConvertToJSONObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/northpole/Santa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/commands/gifts/SendGifts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/commands/gifts/SendGifts.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proiect1/common/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/common/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/elfs/BlackElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/elfs/BlackElf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/elfs/Elf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/elfs/Elf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/elfs/ElfFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/elfs/ElfFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/elfs/PinkElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/elfs/PinkElf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/elfs/WhiteElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/elfs/WhiteElf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/elfs/YellowElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/elfs/YellowElf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/northpole/elves/ElfFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/northpole/elves/ElfFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_10.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_12.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_13.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_14.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_15.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_15.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_16.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_18.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_19.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_19.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_8.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/gifts/SendGifts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/gifts/SendGifts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/northpole/elves/ElfFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/elves/ElfFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +76,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -138,7 +161,7 @@
       <workItem from="1640801671947" duration="440000" />
       <workItem from="1640802304266" duration="19000" />
       <workItem from="1641302574315" duration="1488000" />
-      <workItem from="1641490796193" duration="10983000" />
+      <workItem from="1641490796193" duration="21524000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1640101737197</created>
@@ -196,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641536891652</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Refactored elves">
+      <created>1641536997285</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1641536997285</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,12 +253,16 @@
     <MESSAGE value="Finished input and started Elf Factory" />
     <MESSAGE value="Finished Elves" />
     <MESSAGE value="Finished Elves and replaced Checker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Elves and replaced Checker" />
+    <MESSAGE value="Refactored elves" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored elves" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo parentTag="input.Input" memberName="childList" />
         <PinnedItemInfo parentTag="input.InputJSON" memberName="inputPath" />
+        <PinnedItemInfo parentTag="org.json.simple.JSONArray" memberName="size" />
+        <PinnedItemInfo parentTag="org.json.simple.JSONArray" memberName="elementData" />
       </pinned-members>
     </pin-to-top-manager>
   </component>

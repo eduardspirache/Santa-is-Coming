@@ -6,6 +6,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import commands.budget.CalculateChildBudget;
 import commands.budget.CalculateScoresSum;
 import commands.changes.MakeChanges;
+import commands.gifts.strategy.GiftStrategy;
+import commands.gifts.strategy.GiftStrategyFactory;
+import northpole.Santa;
 import northpole.elves.Elf;
 import northpole.elves.ElfFactory;
 import commands.gifts.SendGifts;
@@ -18,13 +21,17 @@ import org.json.simple.JSONObject;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 
 import static common.Constants.INPUT_PATH;
 import static common.Constants.TESTS_NUMBER;
 import static common.Constants.FILE_EXTENSION;
 import static common.Constants.OUTPUT_PATH;
 import static common.Constants.TEEN_AGE;
+import static common.Constants.YELLOW_ELF;
+import static common.Constants.ID;
 
 
 /**
@@ -52,6 +59,7 @@ public final class Main {
 
     /**
      * Main function
+     *
      * @param filePath1
      * @param filePath2
      * @throws IOException
@@ -63,6 +71,7 @@ public final class Main {
         JSONArray outputAnnualChildren = new JSONArray();
 
         Input input = inputJSON.readData();
+        String strategyType = ID;
 
         for (int i = 0; i <= input.getNumberOfYears(); i++) {
             /////////////// Do not modify /////////////////
@@ -82,57 +91,40 @@ public final class Main {
             // Remove young adults
             input.getChildList().removeIf(a -> a.getAge() > TEEN_AGE);
 
+            // Initialize Santa
+            Santa santa = Santa.getInstance();
+
+            // Add the gift list to santa
+            santa.setGiftList(input.getGiftList());
+
             // Calculate the average score sums and also set each child's nice score
             // by calling CalculateScore function for each child
             CalculateScoresSum averageScoresSum = new CalculateScoresSum(input.getChildList());
             averageScoresSum.execute();
-            double scoresSum = averageScoresSum.getSum();
-            // Iterate through the children list
+            santa.setAverageScoresSum(averageScoresSum.getSum());
+
+            // Calculate the budget allocated for each child and store in Santa's HashMap.
+            // Also apply changes for the elves (Black, White and Pink)
+            Map<Integer, Double> childrenBudgetList = new LinkedHashMap<>();
             for (Child child : input.getChildList()) {
-                // Calculate the budget allocated for the child
                 CalculateChildBudget childBudget = new CalculateChildBudget(child,
-                        scoresSum, input.getSantaBudget());
+                        santa.getAverageScoresSum(), input.getSantaBudget());
                 childBudget.execute();
-                double assignedBudget = childBudget.getBudget();
-                // Apply changes for the elves (Black, White and Pink)
-                Elf elf = ElfFactory.createElf(child, input.getGiftList(), assignedBudget);
-                elf.execute();
-                if (!child.getElf().equals("yellow")) {
-                    assignedBudget = elf.getBudget();
-                }
-                // Store the gifts
-                SendGifts sendGifts = new SendGifts(child, assignedBudget, input.getGiftList());
-                sendGifts.execute();
-                List<Gift> receivedGifts = sendGifts.getReceivedGifts();
 
-                // Apply changes for Yellow Elf if the child's gift list is empty
-                // elf.getGift() is always null for other elves than Yellow
-                if (receivedGifts.size() == 0 && elf.getGift() != null) {
-                    receivedGifts.add(elf.getGift());
+                Elf elf = ElfFactory.createElf(child, input.getGiftList(), childBudget.getBudget());
+                if (!child.getElf().equals(YELLOW_ELF)) {
+                    elf.execute();
+                    childrenBudgetList.put(child.getId(), elf.getBudget());
+                } else {
+                    childrenBudgetList.put(child.getId(), childBudget.getBudget());
                 }
-
-                Child copyChild = new Child(child);
-                JSONObject jsonChild = new JSONObject();
-                jsonChild.put("id", copyChild.getId());
-                jsonChild.put("lastName", copyChild.getLastName());
-                jsonChild.put("firstName", copyChild.getFirstName());
-                jsonChild.put("city", copyChild.getCity());
-                jsonChild.put("age", copyChild.getAge());
-                jsonChild.put("giftsPreferences", copyChild.getGiftsPreferences());
-                jsonChild.put("averageScore", child.getNiceScore());
-                jsonChild.put("niceScoreHistory", copyChild.getScoreList());
-                jsonChild.put("assignedBudget", assignedBudget);
-                JSONArray receivedJSONGifts = new JSONArray();
-                for (Gift gift : receivedGifts) {
-                    JSONObject jsonGift = new JSONObject();
-                    jsonGift.put("productName", gift.getProductName());
-                    jsonGift.put("price", gift.getPrice());
-                    jsonGift.put("category", gift.getCategory());
-                    receivedJSONGifts.add(jsonGift);
-                }
-                jsonChild.put("receivedGifts", receivedJSONGifts);
-                outputYearlyGifted.add(jsonChild);
             }
+            santa.setBudgetList(childrenBudgetList);
+
+            GiftStrategy strategy = GiftStrategyFactory.createStrategy(input.getChildList(),
+                    strategyType);
+
+            outputYearlyGifted = strategy.getGiftList();
 
             /////////////// Do not modify /////////////////
             thisYearChildren.put("children", outputYearlyGifted);

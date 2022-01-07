@@ -28,10 +28,6 @@
       "assignedBudget" : 57.5,
       "id" : 1,
       "receivedGifts" : [ {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
-      }, {
         "price" : 30.0,
         "category" : "Books",
         "productName" : "Twilight"
@@ -50,10 +46,6 @@
         "price" : 30.0,
         "category" : "Board Games",
         "productName" : "Monopoly"
-      }, {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
       } ],
       "age" : 10,
       "averageScore" : 9.0
@@ -67,11 +59,7 @@
       "giftsPreferences" : [ "Board Games", "Sweets", "Toys" ],
       "assignedBudget" : 16.046511627906977,
       "id" : 0,
-      "receivedGifts" : [ {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 11,
       "averageScore" : 2.5
     }, {
@@ -87,9 +75,9 @@
         "category" : "Board Games",
         "productName" : "Monopoly"
       }, {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "price" : 30.0,
+        "category" : "Books",
+        "productName" : "Twilight"
       } ],
       "age" : 18,
       "averageScore" : 10.0
@@ -102,10 +90,6 @@
       "assignedBudget" : 57.76744186046511,
       "id" : 2,
       "receivedGifts" : [ {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
-      }, {
         "price" : 30.0,
         "category" : "Board Games",
         "productName" : "Monopoly"
@@ -131,10 +115,6 @@
         "category" : "Sweets",
         "productName" : "Bag of Candy"
       }, {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
-      }, {
         "price" : 30.0,
         "category" : "Board Games",
         "productName" : "Monopoly"
@@ -154,17 +134,9 @@
         "category" : "Technology",
         "productName" : "Headphones"
       }, {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
-      }, {
         "price" : 30.0,
         "category" : "Books",
         "productName" : "Twilight"
-      }, {
-        "price" : 30.0,
-        "category" : "Board Games",
-        "productName" : "Monopoly"
       } ],
       "age" : 12,
       "averageScore" : 6.333333333333333
@@ -179,13 +151,9 @@
       "assignedBudget" : 134.06060606060606,
       "id" : 0,
       "receivedGifts" : [ {
-        "price" : 30.0,
-        "category" : "Board Games",
-        "productName" : "Monopoly"
-      }, {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "price" : 100.0,
+        "category" : "Technology",
+        "productName" : "Headphones"
       }, {
         "price" : 20.0,
         "category" : "Sweets",
@@ -206,17 +174,9 @@
         "category" : "Technology",
         "productName" : "Headphones"
       }, {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
-      }, {
         "price" : 30.0,
         "category" : "Books",
         "productName" : "Twilight"
-      }, {
-        "price" : 30.0,
-        "category" : "Board Games",
-        "productName" : "Monopoly"
       } ],
       "age" : 13,
       "averageScore" : 3.1666666666666665

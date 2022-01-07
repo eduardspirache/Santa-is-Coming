@@ -83,13 +83,13 @@
       "assignedBudget" : 57.77777777777777,
       "id" : 2,
       "receivedGifts" : [ {
-        "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
-      }, {
         "price" : 10.0,
         "category" : "Sweets",
         "productName" : "Gummy Bears"
+      }, {
+        "price" : 45.0,
+        "category" : "Clothes",
+        "productName" : "Dress"
       } ],
       "age" : 11,
       "averageScore" : 10.0
@@ -105,10 +105,6 @@
         "price" : 5.0,
         "category" : "Toys",
         "productName" : "Teddy Bear"
-      }, {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
       } ],
       "age" : 5,
       "averageScore" : 6.0
@@ -126,10 +122,6 @@
         "price" : 5.0,
         "category" : "Toys",
         "productName" : "Teddy Bear"
-      }, {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
       } ],
       "age" : 6,
       "averageScore" : 3.3333333333333335
@@ -160,11 +152,7 @@
       "giftsPreferences" : [ "Books", "Sweets", "Clothes" ],
       "assignedBudget" : 34.09836065573771,
       "id" : 2,
-      "receivedGifts" : [ {
-        "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 12,
       "averageScore" : 5.333333333333333
     }, {
@@ -176,10 +164,6 @@
       "assignedBudget" : 38.36065573770492,
       "id" : 3,
       "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      }, {
         "price" : 5.0,
         "category" : "Toys",
         "productName" : "Teddy Bear"
@@ -200,10 +184,6 @@
         "price" : 5.0,
         "category" : "Toys",
         "productName" : "Teddy Bear"
-      }, {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
       } ],
       "age" : 7,
       "averageScore" : 3.3333333333333335
@@ -215,11 +195,7 @@
       "giftsPreferences" : [ "Toys", "Clothes", "Board Games" ],
       "assignedBudget" : 30.232558139534888,
       "id" : 1,
-      "receivedGifts" : [ {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 7,
       "averageScore" : 5.0
     }, {
@@ -230,11 +206,7 @@
       "giftsPreferences" : [ "Books", "Sweets", "Clothes" ],
       "assignedBudget" : 31.240310077519386,
       "id" : 2,
-      "receivedGifts" : [ {
-        "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 13,
       "averageScore" : 5.166666666666667
     }, {
@@ -245,15 +217,7 @@
       "giftsPreferences" : [ "Sweets", "Toys" ],
       "assignedBudget" : 48.372093023255815,
       "id" : 3,
-      "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      }, {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 7,
       "averageScore" : 8.0
     } ]
@@ -266,15 +230,7 @@
       "giftsPreferences" : [ "Toys", "Clothes", "Board Games", "Books", "Sweets" ],
       "assignedBudget" : 16.455696202531644,
       "id" : 0,
-      "receivedGifts" : [ {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
-      }, {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 8,
       "averageScore" : 3.0
     }, {
@@ -285,11 +241,7 @@
       "giftsPreferences" : [ "Toys", "Clothes", "Board Games" ],
       "assignedBudget" : 32.91139240506329,
       "id" : 1,
-      "receivedGifts" : [ {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 8,
       "averageScore" : 6.0
     }, {
@@ -300,15 +252,7 @@
       "giftsPreferences" : [ "Books", "Sweets", "Clothes" ],
       "assignedBudget" : 36.75105485232068,
       "id" : 2,
-      "receivedGifts" : [ {
-        "price" : 25.0,
-        "category" : "Books",
-        "productName" : "Diary of a Wimpy Kid"
-      }, {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 14,
       "averageScore" : 6.7
     }, {
@@ -319,15 +263,7 @@
       "giftsPreferences" : [ "Sweets", "Toys" ],
       "assignedBudget" : 43.881856540084385,
       "id" : 3,
-      "receivedGifts" : [ {
-        "price" : 10.0,
-        "category" : "Sweets",
-        "productName" : "Gummy Bears"
-      }, {
-        "price" : 5.0,
-        "category" : "Toys",
-        "productName" : "Teddy Bear"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 8,
       "averageScore" : 8.0
     } ]
