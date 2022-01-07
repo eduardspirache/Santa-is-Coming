@@ -1,25 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d662010a-d6c5-4bb5-92a6-5b13c2206c94" name="Changes" comment="Finished input and started Elf Factory">
-      <change afterPath="$PROJECT_DIR$/src/commands/elfs/BlackElf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/elfs/PinkElf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/elfs/WhiteElf.java" afterDir="false" />
+    <list default="true" id="d662010a-d6c5-4bb5-92a6-5b13c2206c94" name="Changes" comment="Finished Elves">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/children/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/children/Child.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/children/Update.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/children/Update.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/commands/budget/CalculateChildBudget.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/commands/budget/CalculateChildBudget.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/commands/gifts/SendGifts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/commands/gifts/SendGifts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/commands/score/CalculateScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/commands/score/CalculateScore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/enums/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/enums/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/input/InputHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/input/InputHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/input/InputJSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/input/InputJSON.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/northpole/Change.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/northpole/Change.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/northpole/Gift.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/northpole/Gift.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/out_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_6.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/budget/CalculateChildBudget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/budget/CalculateChildBudget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/elfs/Elf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/elfs/Elf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/elfs/ElfFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/elfs/ElfFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/elfs/YellowElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/elfs/YellowElf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/gifts/SameCategoryGifts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/gifts/SameCategoryGifts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/gifts/SendGifts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/gifts/SendGifts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/score/CalculateScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/score/CalculateScore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/input/InputHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/InputHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/input/InputJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/InputJSON.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/northpole/Gift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/Gift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_10.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_11.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_12.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_13.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_14.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_15.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_15.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_16.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_17.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_18.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_19.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_19.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_20.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_8.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_9.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test20.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test21.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test22.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test23.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test24.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test25.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +85,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="proiect1" />
@@ -122,8 +142,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Shell Script.checkstyle.sh" />
         <item itemvalue="Application.NewMain" />
       </list>
@@ -147,7 +167,7 @@
       <workItem from="1640801671947" duration="440000" />
       <workItem from="1640802304266" duration="19000" />
       <workItem from="1641302574315" duration="1488000" />
-      <workItem from="1641490796193" duration="9627000" />
+      <workItem from="1641490796193" duration="10646000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1640101737197</created>
@@ -184,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641496628004</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finished Elves">
+      <created>1641532718067</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1641532718067</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +236,8 @@
     <MESSAGE value="20 points" />
     <MESSAGE value="Done" />
     <MESSAGE value="Finished input and started Elf Factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished input and started Elf Factory" />
+    <MESSAGE value="Finished Elves" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Elves" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
