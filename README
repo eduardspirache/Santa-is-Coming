@@ -16,7 +16,8 @@ ScoreFactory pentru aceasta functionalitate. In main am apelat funciat Calculate
 in fiecare runda, pentru fiecare copil. Aceasta returneaza averageScore.
 
 Pentru buget, am construit doua functii:
-- CalculateScoresSum -> Insumeaza toate averageScore-urile copiilor
+- CalculateScoresSum -> Insumeaza toate averageScore-urile copiilor si seteaza niceScore-ul
+fiecarui copil, apeland functia *CalculateScore* pe toata lista de copii.
 - CalculateChildBudget -> Calculeaza bugetul mosului pentru fiecare copil (functie apelata,
 de asemenea, in fiecare runda, pentru fiecare copil).
 CalculateScoreSum apeleaza CalculateScore in interiorul sau si modifica parametrul

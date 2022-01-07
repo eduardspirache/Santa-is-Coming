@@ -56,7 +56,7 @@ public final class InputHelper {
                     niceScoreBonus = ((Long) ((JSONObject) child).get("niceScoreBonus")).intValue();
                 }
 
-                String elf = ((String) ((JSONObject) child).get("age"));
+                String elf = ((String) ((JSONObject) child).get("elf"));
 
                 Child newChild = new Child(id, lastName, firstName, age,
                         city, niceScore, giftsPreferences, niceScoreBonus, elf);

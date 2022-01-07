@@ -12,15 +12,16 @@ public class ElfFactory {
     }
 
 
-    public static Elf createElf(final Child child, final List<Gift> santaGiftList) {
+    public static Elf createElf(final Child child, final List<Gift> santaGiftList,
+                                final double budget) {
         if (child.getElf().equals("yellow")) {
             return new YellowElf(child, santaGiftList);
         } else if (child.getElf().equals("black")) {
-            return new BlackElf(child);
+            return new BlackElf(child, budget);
         } else if (child.getElf().equals("pink")) {
-            return new PinkElf(child);
+            return new PinkElf(child, budget);
         } else {
-            return new WhiteElf(child);
+            return new WhiteElf(child, budget);
         }
     }
 }

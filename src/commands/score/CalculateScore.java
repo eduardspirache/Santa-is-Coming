@@ -12,10 +12,13 @@ public final class CalculateScore implements Command {
         this.score = ScoreFactory.createScore(child);
     }
 
+    /**
+     * Calculates each child's score, including the bonus
+     */
     @Override
     public void execute() {
         score.execute();
-        child.setNiceScore(score.getAverageScore());
+        child.setNiceScore(score.getAverageScore() + child.getNiceScoreBonus());
     }
 
     public double getAverageScore() {

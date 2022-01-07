@@ -20,9 +20,7 @@ public final class CalculateChildBudget implements Command {
      */
     @Override
     public void execute() {
-        CalculateScore calculateScore = new CalculateScore(child);
-        calculateScore.execute();
-        budget = calculateScore.getAverageScore() * budgetUnit;
+        budget = child.getNiceScore() * budgetUnit;
     }
 
     public double getBudget() {

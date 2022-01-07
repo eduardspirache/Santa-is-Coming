@@ -6,7 +6,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import commands.budget.CalculateChildBudget;
 import commands.budget.CalculateScoresSum;
 import commands.changes.MakeChanges;
+import commands.elfs.Elf;
+import commands.elfs.ElfFactory;
 import commands.gifts.SendGifts;
+import commands.score.CalculateScore;
 import input.Input;
 import input.InputJSON;
 import northpole.Change;
@@ -80,21 +83,34 @@ public final class Main {
             // Remove young adults
             input.getChildList().removeIf(a -> a.getAge() > TEEN_AGE);
 
-            // Calculate the average score sums and also sets each child's nice score
+            // Calculate the average score sums and also set each child's nice score
+            // by calling CalculateScore function for each child
             CalculateScoresSum averageScoresSum = new CalculateScoresSum(input.getChildList());
             averageScoresSum.execute();
             double scoresSum = averageScoresSum.getSum();
             // Iterate through the children list
             for (Child child : input.getChildList()) {
-                //Calculate the budget allocated for the child
+                // Calculate the budget allocated for the child
                 CalculateChildBudget childBudget = new CalculateChildBudget(child,
                         scoresSum, input.getSantaBudget());
                 childBudget.execute();
                 double assignedBudget = childBudget.getBudget();
+                // Apply changes for the elves (Black, White and Pink)
+                Elf elf = ElfFactory.createElf(child, input.getGiftList(), assignedBudget);
+                elf.execute();
+                if (!child.getElf().equals("yellow")) {
+                    assignedBudget = elf.getBudget();
+                }
                 // Store the gifts
                 SendGifts sendGifts = new SendGifts(child, assignedBudget, input.getGiftList());
                 sendGifts.execute();
                 List<Gift> receivedGifts = sendGifts.getReceivedGifts();
+
+                // Apply changes for Yellow Elf if the child's gift list is empty
+                // elf.getGift() is always null for other elves than Yellow
+                if (receivedGifts.size() == 0 && elf.getGift() != null) {
+                    receivedGifts.add(elf.getGift());
+                }
 
                 Child copyChild = new Child(child);
                 JSONObject jsonChild = new JSONObject();

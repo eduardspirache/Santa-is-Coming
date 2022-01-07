@@ -82,7 +82,7 @@ public final class InputJSON {
                                     .get("childrenUpdates"));
 
                     String strategy = ((String) ((JSONObject) change).
-                            get("newSantaBudget"));
+                            get("strategy"));
 
                     Change newChange = new Change(newSantaBudget, newGifts,
                             newChildren, childrenUpdates, strategy);
