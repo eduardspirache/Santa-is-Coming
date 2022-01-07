@@ -23,7 +23,7 @@ public final class CalculateScoresSum implements Command {
         for (Child child : childList) {
             CalculateScore calculateScore = new CalculateScore(child);
             calculateScore.execute();
-            this.sum += calculateScore.getAverageScore();
+            this.sum += child.getNiceScore();
         }
     }
 

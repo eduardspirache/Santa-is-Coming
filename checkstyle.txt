@@ -38,6 +38,9 @@ Starting audit...
 [ERROR] C:\Users\edwar\Desktop\Diverse\Facultate\POO-lab\Proiect\.\src\commands\gifts\strategy\NiceCityGiftStrategy.java:30:13: 'for' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\edwar\Desktop\Diverse\Facultate\POO-lab\Proiect\.\src\commands\gifts\strategy\NiceCityGiftStrategy.java:31:17: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\edwar\Desktop\Diverse\Facultate\POO-lab\Proiect\.\src\commands\gifts\strategy\NiceScoreGiftStrategy.java:21:5: Class 'NiceScoreGiftStrategy' looks like designed for extension (can be subclassed), but the method 'getGiftList' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NiceScoreGiftStrategy' final or making the method 'getGiftList' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\Users\edwar\Desktop\Diverse\Facultate\POO-lab\Proiect\.\src\commands\score\CalculateScore.java:21:9: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\edwar\Desktop\Diverse\Facultate\POO-lab\Proiect\.\src\commands\score\CalculateScore.java:21:67: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\edwar\Desktop\Diverse\Facultate\POO-lab\Proiect\.\src\commands\score\CalculateScore.java:22:32: '10' is a magic number. [MagicNumber]
 [ERROR] C:\Users\edwar\Desktop\Diverse\Facultate\POO-lab\Proiect\.\src\commands\score\CityNiceScore.java:7:17: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]
 [ERROR] C:\Users\edwar\Desktop\Diverse\Facultate\POO-lab\Proiect\.\src\commands\score\CityNiceScore.java:14:35: Array brackets at illegal position. [ArrayTypeStyle]
 [ERROR] C:\Users\edwar\Desktop\Diverse\Facultate\POO-lab\Proiect\.\src\commands\score\CityNiceScore.java:22:5: Class 'CityNiceScore' looks like designed for extension (can be subclassed), but the method 'getCityScores' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CityNiceScore' final or making the method 'getCityScores' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
@@ -89,4 +92,4 @@ Starting audit...
 [ERROR] C:\Users\edwar\Desktop\Diverse\Facultate\POO-lab\Proiect\.\src\northpole\Santa.java:52:31: Parameter budgetList should be final. [FinalParameters]
 [ERROR] C:\Users\edwar\Desktop\Diverse\Facultate\POO-lab\Proiect\.\src\northpole\Santa.java:60:29: Parameter giftList should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 89 errors.
+Checkstyle ends with 92 errors.

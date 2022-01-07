@@ -18,7 +18,11 @@ public final class CalculateScore implements Command {
     @Override
     public void execute() {
         score.execute();
-        child.setNiceScore(score.getAverageScore() + child.getNiceScoreBonus());
+        if(score.getAverageScore() + child.getNiceScoreBonus() >= 10) {
+            child.setNiceScore(10);
+        } else {
+            child.setNiceScore(score.getAverageScore() + child.getNiceScoreBonus());
+        }
     }
 
     public double getAverageScore() {

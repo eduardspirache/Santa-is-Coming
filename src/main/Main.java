@@ -88,6 +88,8 @@ public final class Main {
             }
             // Remove young adults
             input.getChildList().removeIf(a -> a.getAge() > TEEN_AGE);
+            // Remove same category preferences (duplicates)
+
 
             // Initialize Santa
             Santa santa = Santa.getInstance();
