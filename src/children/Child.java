@@ -1,6 +1,9 @@
 package children;
 
+import northpole.Gift;
+
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public final class Child {
@@ -13,7 +16,8 @@ public final class Child {
     private final List<Double> scoreList;
     private List<String> giftsPreferences;
     private final int niceScoreBonus;
-    private final String elf;
+    private String elf;
+    private List<Gift> receivedRoundGifts;
 
     public Child(final int id, final String lastName, final String firstName, final int age,
                  final String city, final double niceScore, final List<String> giftsPreferences,
@@ -29,6 +33,7 @@ public final class Child {
         this.giftsPreferences = giftsPreferences;
         this.niceScoreBonus = niceScoreBonus;
         this.elf = elf;
+        this.receivedRoundGifts = null;
     }
 
     public Child(final Child child) {
@@ -42,6 +47,7 @@ public final class Child {
         this.giftsPreferences = new ArrayList<>(child.getGiftsPreferences());
         this.niceScoreBonus = child.getNiceScoreBonus();
         this.elf = child.getElf();
+        this.receivedRoundGifts = null;
     }
 
     public int getId() {
@@ -94,5 +100,17 @@ public final class Child {
 
     public String getElf() {
         return elf;
+    }
+
+    public void setElf(String elf) {
+        this.elf = elf;
+    }
+
+    public List<Gift> getReceivedRoundGifts() {
+        return receivedRoundGifts;
+    }
+
+    public void setReceivedRoundGifts(List<Gift> receivedRoundGifts) {
+        this.receivedRoundGifts = receivedRoundGifts;
     }
 }

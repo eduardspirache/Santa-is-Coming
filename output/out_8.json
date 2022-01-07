@@ -88,6 +88,14 @@
         "price" : 45.0,
         "category" : "Clothes",
         "productName" : "Dress"
+      }, {
+        "price" : 20.0,
+        "category" : "Toys",
+        "productName" : "Car"
+      }, {
+        "price" : 500.0,
+        "category" : "Technology",
+        "productName" : "Laptop"
       } ],
       "age" : 18,
       "averageScore" : 4.833333333333333

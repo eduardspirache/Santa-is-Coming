@@ -79,6 +79,10 @@
         "productName" : "Chocolate"
       }, {
         "price" : 10.0,
+        "category" : "Toys",
+        "productName" : "Doll"
+      }, {
+        "price" : 10.0,
         "category" : "Board Games",
         "productName" : "Uno"
       } ],
@@ -98,6 +102,10 @@
         "price" : 15.0,
         "category" : "Sweets",
         "productName" : "Chocolate"
+      }, {
+        "price" : 10.0,
+        "category" : "Toys",
+        "productName" : "Doll"
       }, {
         "price" : 10.0,
         "category" : "Board Games",
@@ -129,6 +137,10 @@
         "category" : "Board Games",
         "productName" : "Uno"
       }, {
+        "price" : 10.0,
+        "category" : "Toys",
+        "productName" : "Doll"
+      }, {
         "price" : 45.0,
         "category" : "Clothes",
         "productName" : "Dress"
@@ -156,6 +168,10 @@
         "category" : "Sweets",
         "productName" : "Chocolate"
       }, {
+        "price" : 15.0,
+        "category" : "Toys",
+        "productName" : "Castle"
+      }, {
         "price" : 10.0,
         "category" : "Board Games",
         "productName" : "Uno"
@@ -173,6 +189,14 @@
       "assignedBudget" : 103.15044247787613,
       "id" : 0,
       "receivedGifts" : [ {
+        "price" : 20.0,
+        "category" : "Sweets",
+        "productName" : "Bag of Candy"
+      }, {
+        "price" : 15.0,
+        "category" : "Toys",
+        "productName" : "Castle"
+      }, {
         "price" : 10.0,
         "category" : "Board Games",
         "productName" : "Uno"
@@ -202,6 +226,14 @@
         "price" : 45.0,
         "category" : "Clothes",
         "productName" : "Dress"
+      }, {
+        "price" : 20.0,
+        "category" : "Sweets",
+        "productName" : "Bag of Candy"
+      }, {
+        "price" : 15.0,
+        "category" : "Toys",
+        "productName" : "Castle"
       }, {
         "price" : 10.0,
         "category" : "Board Games",
@@ -234,6 +266,14 @@
         "price" : 45.0,
         "category" : "Clothes",
         "productName" : "Dress"
+      }, {
+        "price" : 20.0,
+        "category" : "Sweets",
+        "productName" : "Bag of Candy"
+      }, {
+        "price" : 15.0,
+        "category" : "Toys",
+        "productName" : "Castle"
       }, {
         "price" : 10.0,
         "category" : "Board Games",

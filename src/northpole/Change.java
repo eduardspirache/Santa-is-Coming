@@ -37,4 +37,8 @@ public final class Change {
     public List<Update> getChildrenUpdates() {
         return childrenUpdates;
     }
+
+    public String getStrategy() {
+        return strategy;
+    }
 }

@@ -31,7 +31,7 @@ public final class MakeChanges implements Command {
         input.setSantaBudget(change.getNewSantaBudget());
         input.getGiftList().addAll(change.getNewGifts());
         input.getChildList().addAll(change.getNewChildren());
-
+        input.setRoundStrategy(change.getStrategy());
         for (Update update : change.getChildrenUpdates()) {
             for (Child child : childList) {
                 if (child.getId() == update.getId()) {
@@ -48,9 +48,13 @@ public final class MakeChanges implements Command {
                         child.getGiftsPreferences().removeIf(updatedGiftPreferences::contains);
                         child.getGiftsPreferences().addAll(0, updatedGiftPreferences);
                     }
+                    if(!update.getElf().equals(child.getElf())) {
+                        child.setElf(update.getElf());
+                    }
                     break;
                 }
             }
         }
+
     }
 }

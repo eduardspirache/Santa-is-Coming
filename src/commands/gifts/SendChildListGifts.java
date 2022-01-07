@@ -10,6 +10,9 @@ import northpole.elves.ElfFactory;
 import northpole.elves.YellowElf;
 import org.json.simple.JSONArray;
 
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.LinkedList;
 import java.util.List;
 
 import static common.Constants.YELLOW_ELF;
@@ -36,6 +39,7 @@ public class SendChildListGifts implements Command {
      */
     @Override
     public void execute() {
+        List<Child> childReceivedGifts = new ArrayList<>();
         for (Child child : childList) {
             SendGifts sendGifts = new SendGifts(child, santa.getBudgetList().get(child.getId()),
                     santa.getGiftList());
@@ -49,10 +53,16 @@ public class SendChildListGifts implements Command {
                 elf.execute();
                 receivedGifts.add(elf.getGift());
             }
-
-            ConvertToJSONObj jsonObj = new ConvertToJSONObj(child, receivedGifts);
+            child.setReceivedRoundGifts(receivedGifts);
+            childReceivedGifts.add(child);
+        }
+        // We sort the list ascending by ID
+        childReceivedGifts.sort(Comparator.comparingInt(Child::getId));
+        for (Child child : childReceivedGifts) {
+            ConvertToJSONObj jsonObj = new ConvertToJSONObj(child);
             jsonObj.execute();
             childReceivedGiftsJSON.add(jsonObj.getJsonChild());
         }
     }
+
 }

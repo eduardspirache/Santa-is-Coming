@@ -52,12 +52,16 @@
       "id" : 2,
       "receivedGifts" : [ {
         "price" : 30.0,
+        "category" : "Board Games",
+        "productName" : "Monopoly"
+      }, {
+        "price" : 30.0,
+        "category" : "Toys",
+        "productName" : "Lego"
+      }, {
+        "price" : 30.0,
         "category" : "Books",
         "productName" : "Twilight"
-      }, {
-        "price" : 70.0,
-        "category" : "Clothes",
-        "productName" : "Shoes"
       } ],
       "age" : 9,
       "averageScore" : 7.0
@@ -69,7 +73,11 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "assignedBudget" : 152.75862068965517,
       "id" : 3,
-      "receivedGifts" : [ ],
+      "receivedGifts" : [ {
+        "price" : 30.0,
+        "category" : "Board Games",
+        "productName" : "Monopoly"
+      } ],
       "age" : 2,
       "averageScore" : 10.0
     } ]
@@ -82,7 +90,15 @@
       "giftsPreferences" : [ "Board Games", "Books" ],
       "assignedBudget" : 116.28750000000001,
       "id" : 0,
-      "receivedGifts" : [ ],
+      "receivedGifts" : [ {
+        "price" : 30.0,
+        "category" : "Board Games",
+        "productName" : "Monopoly"
+      }, {
+        "price" : 35.0,
+        "category" : "Books",
+        "productName" : "Harry Potter"
+      } ],
       "age" : 5,
       "averageScore" : 7.0
     }, {
@@ -94,6 +110,10 @@
       "assignedBudget" : 77.525,
       "id" : 1,
       "receivedGifts" : [ {
+        "price" : 30.0,
+        "category" : "Board Games",
+        "productName" : "Monopoly"
+      }, {
         "price" : 10.0,
         "category" : "Sweets",
         "productName" : "Gummy Bears"
@@ -109,9 +129,13 @@
       "assignedBudget" : 83.0625,
       "id" : 2,
       "receivedGifts" : [ {
-        "price" : 70.0,
-        "category" : "Clothes",
-        "productName" : "Shoes"
+        "price" : 30.0,
+        "category" : "Board Games",
+        "productName" : "Monopoly"
+      }, {
+        "price" : 35.0,
+        "category" : "Books",
+        "productName" : "Harry Potter"
       } ],
       "age" : 10,
       "averageScore" : 5.0
@@ -123,7 +147,11 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "assignedBudget" : 166.125,
       "id" : 3,
-      "receivedGifts" : [ ],
+      "receivedGifts" : [ {
+        "price" : 50.0,
+        "category" : "Board Games",
+        "productName" : "Puzzle"
+      } ],
       "age" : 3,
       "averageScore" : 10.0
     } ]
@@ -136,7 +164,15 @@
       "giftsPreferences" : [ "Board Games", "Books" ],
       "assignedBudget" : 126.57142857142857,
       "id" : 0,
-      "receivedGifts" : [ ],
+      "receivedGifts" : [ {
+        "price" : 50.0,
+        "category" : "Board Games",
+        "productName" : "Puzzle"
+      }, {
+        "price" : 35.0,
+        "category" : "Books",
+        "productName" : "Harry Potter"
+      } ],
       "age" : 6,
       "averageScore" : 8.0
     }, {
@@ -148,13 +184,13 @@
       "assignedBudget" : 84.38095238095238,
       "id" : 1,
       "receivedGifts" : [ {
+        "price" : 50.0,
+        "category" : "Board Games",
+        "productName" : "Puzzle"
+      }, {
         "price" : 10.0,
         "category" : "Sweets",
         "productName" : "Gummy Bears"
-      }, {
-        "price" : 70.0,
-        "category" : "Clothes",
-        "productName" : "Shoes"
       } ],
       "age" : 13,
       "averageScore" : 5.333333333333333
@@ -224,7 +260,11 @@
       "giftsPreferences" : [ "Board Games", "Toys", "Books", "Clothes" ],
       "assignedBudget" : 108.30861723446894,
       "id" : 2,
-      "receivedGifts" : [ ],
+      "receivedGifts" : [ {
+        "price" : 70.0,
+        "category" : "Clothes",
+        "productName" : "Shoes"
+      } ],
       "age" : 12,
       "averageScore" : 6.1
     }, {
@@ -263,6 +303,10 @@
         "price" : 10.0,
         "category" : "Sweets",
         "productName" : "Gummy Bears"
+      }, {
+        "price" : 70.0,
+        "category" : "Clothes",
+        "productName" : "Shoes"
       } ],
       "age" : 15,
       "averageScore" : 5.733333333333333
@@ -274,7 +318,11 @@
       "giftsPreferences" : [ "Board Games", "Toys", "Books", "Clothes" ],
       "assignedBudget" : 107.50133333333332,
       "id" : 2,
-      "receivedGifts" : [ ],
+      "receivedGifts" : [ {
+        "price" : 70.0,
+        "category" : "Clothes",
+        "productName" : "Shoes"
+      } ],
       "age" : 13,
       "averageScore" : 6.066666666666666
     }, {

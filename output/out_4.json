@@ -107,7 +107,11 @@
       "giftsPreferences" : [ "Technology" ],
       "assignedBudget" : 612.8,
       "id" : 1,
-      "receivedGifts" : [ ],
+      "receivedGifts" : [ {
+        "price" : 500.0,
+        "category" : "Technology",
+        "productName" : "Laptop"
+      } ],
       "age" : 3,
       "averageScore" : 10.0
     } ]

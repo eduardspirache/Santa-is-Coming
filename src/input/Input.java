@@ -7,12 +7,15 @@ import northpole.Gift;
 import java.util.ArrayList;
 import java.util.List;
 
+import static common.Constants.ID;
+
 public final class Input {
     private int numberOfYears;
     private double santaBudget;
     private List<Child> childList;
     private List<Gift> giftList;
     private List<Change> annualChanges;
+    private String roundStrategy;
 
     public Input() {
         this.numberOfYears = 0;
@@ -20,6 +23,7 @@ public final class Input {
         this.childList = new ArrayList<>();
         this.giftList = new ArrayList<>();
         this.annualChanges = new ArrayList<>();
+        this.roundStrategy = ID;
     }
 
     public int getNumberOfYears() {
@@ -60,5 +64,13 @@ public final class Input {
 
     public void setAnnualChanges(final List<Change> annualChanges) {
         this.annualChanges = annualChanges;
+    }
+
+    public void setRoundStrategy(String roundStrategy) {
+        this.roundStrategy = roundStrategy;
+    }
+
+    public String getRoundStrategy() {
+        return roundStrategy;
     }
 }

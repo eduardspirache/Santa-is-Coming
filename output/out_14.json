@@ -64,9 +64,9 @@
       "assignedBudget" : 94.94999999999999,
       "id" : 1,
       "receivedGifts" : [ {
-        "price" : 5.0,
+        "price" : 10.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Doll"
       }, {
         "price" : 45.0,
         "category" : "Clothes",
@@ -83,6 +83,10 @@
       "assignedBudget" : 221.54999999999998,
       "id" : 2,
       "receivedGifts" : [ {
+        "price" : 5.0,
+        "category" : "Toys",
+        "productName" : "Teddy Bear"
+      }, {
         "price" : 35.0,
         "category" : "Books",
         "productName" : "Harry Potter"
@@ -184,11 +188,7 @@
       "giftsPreferences" : [ "Toys", "Technology", "Board Games", "Books" ],
       "assignedBudget" : 147.0625,
       "id" : 2,
-      "receivedGifts" : [ {
-        "price" : 35.0,
-        "category" : "Books",
-        "productName" : "Harry Potter"
-      } ],
+      "receivedGifts" : [ ],
       "age" : 12,
       "averageScore" : 4.333333333333333
     }, {
@@ -199,7 +199,11 @@
       "giftsPreferences" : [ "Board Games", "Books" ],
       "assignedBudget" : 305.4375,
       "id" : 3,
-      "receivedGifts" : [ ],
+      "receivedGifts" : [ {
+        "price" : 35.0,
+        "category" : "Books",
+        "productName" : "Harry Potter"
+      } ],
       "age" : 5,
       "averageScore" : 9.0
     } ]

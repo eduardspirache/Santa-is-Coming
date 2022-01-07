@@ -27,4 +27,8 @@ public final class Update {
     public List<String> getGiftsPreferences() {
         return giftsPreferences;
     }
+
+    public String getElf() {
+        return elf;
+    }
 }

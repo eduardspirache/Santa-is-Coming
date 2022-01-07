@@ -110,9 +110,9 @@
         "category" : "Sweets",
         "productName" : "Chocolate"
       }, {
-        "price" : 5.0,
+        "price" : 10.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Doll"
       } ],
       "age" : 9,
       "averageScore" : 2.0
@@ -128,6 +128,14 @@
         "price" : 200.0,
         "category" : "Clothes",
         "productName" : "Handbag"
+      }, {
+        "price" : 5.0,
+        "category" : "Toys",
+        "productName" : "Teddy Bear"
+      }, {
+        "price" : 50.0,
+        "category" : "Board Games",
+        "productName" : "Puzzle"
       } ],
       "age" : 11,
       "averageScore" : 6.5
@@ -157,13 +165,17 @@
       "assignedBudget" : 90.60582524271845,
       "id" : 1,
       "receivedGifts" : [ {
+        "price" : 10.0,
+        "category" : "Toys",
+        "productName" : "Doll"
+      }, {
+        "price" : 50.0,
+        "category" : "Board Games",
+        "productName" : "Puzzle"
+      }, {
         "price" : 30.0,
         "category" : "Books",
         "productName" : "Twilight"
-      }, {
-        "price" : 15.0,
-        "category" : "Sweets",
-        "productName" : "Chocolate"
       } ],
       "age" : 10,
       "averageScore" : 2.0
@@ -179,6 +191,14 @@
         "price" : 200.0,
         "category" : "Clothes",
         "productName" : "Handbag"
+      }, {
+        "price" : 10.0,
+        "category" : "Toys",
+        "productName" : "Doll"
+      }, {
+        "price" : 50.0,
+        "category" : "Board Games",
+        "productName" : "Puzzle"
       } ],
       "age" : 12,
       "averageScore" : 6.833333333333333

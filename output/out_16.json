@@ -105,6 +105,10 @@
         "price" : 5.0,
         "category" : "Toys",
         "productName" : "Teddy Bear"
+      }, {
+        "price" : 20.0,
+        "category" : "Sweets",
+        "productName" : "Bag of Candy"
       } ],
       "age" : 5,
       "averageScore" : 6.0
@@ -152,7 +156,11 @@
       "giftsPreferences" : [ "Books", "Sweets", "Clothes" ],
       "assignedBudget" : 34.09836065573771,
       "id" : 2,
-      "receivedGifts" : [ ],
+      "receivedGifts" : [ {
+        "price" : 20.0,
+        "category" : "Sweets",
+        "productName" : "Bag of Candy"
+      } ],
       "age" : 12,
       "averageScore" : 5.333333333333333
     }, {
@@ -164,6 +172,10 @@
       "assignedBudget" : 38.36065573770492,
       "id" : 3,
       "receivedGifts" : [ {
+        "price" : 20.0,
+        "category" : "Sweets",
+        "productName" : "Bag of Candy"
+      }, {
         "price" : 5.0,
         "category" : "Toys",
         "productName" : "Teddy Bear"
@@ -195,7 +207,11 @@
       "giftsPreferences" : [ "Toys", "Clothes", "Board Games" ],
       "assignedBudget" : 30.232558139534888,
       "id" : 1,
-      "receivedGifts" : [ ],
+      "receivedGifts" : [ {
+        "price" : 15.0,
+        "category" : "Toys",
+        "productName" : "Castle"
+      } ],
       "age" : 7,
       "averageScore" : 5.0
     }, {
@@ -206,7 +222,11 @@
       "giftsPreferences" : [ "Books", "Sweets", "Clothes" ],
       "assignedBudget" : 31.240310077519386,
       "id" : 2,
-      "receivedGifts" : [ ],
+      "receivedGifts" : [ {
+        "price" : 20.0,
+        "category" : "Sweets",
+        "productName" : "Bag of Candy"
+      } ],
       "age" : 13,
       "averageScore" : 5.166666666666667
     }, {
@@ -217,7 +237,15 @@
       "giftsPreferences" : [ "Sweets", "Toys" ],
       "assignedBudget" : 48.372093023255815,
       "id" : 3,
-      "receivedGifts" : [ ],
+      "receivedGifts" : [ {
+        "price" : 20.0,
+        "category" : "Sweets",
+        "productName" : "Bag of Candy"
+      }, {
+        "price" : 15.0,
+        "category" : "Toys",
+        "productName" : "Castle"
+      } ],
       "age" : 7,
       "averageScore" : 8.0
     } ]
@@ -230,7 +258,11 @@
       "giftsPreferences" : [ "Toys", "Clothes", "Board Games", "Books", "Sweets" ],
       "assignedBudget" : 16.455696202531644,
       "id" : 0,
-      "receivedGifts" : [ ],
+      "receivedGifts" : [ {
+        "price" : 15.0,
+        "category" : "Toys",
+        "productName" : "Castle"
+      } ],
       "age" : 8,
       "averageScore" : 3.0
     }, {
@@ -241,7 +273,11 @@
       "giftsPreferences" : [ "Toys", "Clothes", "Board Games" ],
       "assignedBudget" : 32.91139240506329,
       "id" : 1,
-      "receivedGifts" : [ ],
+      "receivedGifts" : [ {
+        "price" : 15.0,
+        "category" : "Toys",
+        "productName" : "Castle"
+      } ],
       "age" : 8,
       "averageScore" : 6.0
     }, {
@@ -252,7 +288,11 @@
       "giftsPreferences" : [ "Books", "Sweets", "Clothes" ],
       "assignedBudget" : 36.75105485232068,
       "id" : 2,
-      "receivedGifts" : [ ],
+      "receivedGifts" : [ {
+        "price" : 20.0,
+        "category" : "Sweets",
+        "productName" : "Bag of Candy"
+      } ],
       "age" : 14,
       "averageScore" : 6.7
     }, {
@@ -263,7 +303,11 @@
       "giftsPreferences" : [ "Sweets", "Toys" ],
       "assignedBudget" : 43.881856540084385,
       "id" : 3,
-      "receivedGifts" : [ ],
+      "receivedGifts" : [ {
+        "price" : 30.0,
+        "category" : "Sweets",
+        "productName" : "Milk and Cookies"
+      } ],
       "age" : 8,
       "averageScore" : 8.0
     } ]

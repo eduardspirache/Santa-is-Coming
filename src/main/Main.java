@@ -71,12 +71,10 @@ public final class Main {
         JSONArray outputAnnualChildren = new JSONArray();
 
         Input input = inputJSON.readData();
-        String strategyType = ID;
 
         for (int i = 0; i <= input.getNumberOfYears(); i++) {
             /////////////// Do not modify /////////////////
             JSONObject thisYearChildren = new JSONObject();
-            JSONArray outputYearlyGifted = new JSONArray(); // we add the children here
             ///////////////////////////////////////////////
 
             // If we are not in the first round, we register the changes
@@ -122,9 +120,9 @@ public final class Main {
             santa.setBudgetList(childrenBudgetList);
 
             GiftStrategy strategy = GiftStrategyFactory.createStrategy(input.getChildList(),
-                    strategyType);
+                    input.getRoundStrategy());
 
-            outputYearlyGifted = strategy.getGiftList();
+            JSONArray outputYearlyGifted = strategy.getGiftList();
 
             /////////////// Do not modify /////////////////
             thisYearChildren.put("children", outputYearlyGifted);

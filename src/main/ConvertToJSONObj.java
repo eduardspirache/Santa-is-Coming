@@ -11,13 +11,11 @@ import java.util.List;
 
 public class ConvertToJSONObj implements Command {
     private final Child child;
-    private final List<Gift> receivedGifts;
     private final Santa santa;
     private JSONObject jsonChild;
 
-    public ConvertToJSONObj(Child child, List<Gift> receivedGifts) {
+    public ConvertToJSONObj(Child child) {
         this.child = child;
-        this.receivedGifts = receivedGifts;
         this.santa = Santa.getInstance();
         this.jsonChild = new JSONObject();
     }
@@ -39,7 +37,7 @@ public class ConvertToJSONObj implements Command {
         jsonChild.put("niceScoreHistory", copyChild.getScoreList());
         jsonChild.put("assignedBudget", santa.getBudgetList().get(child.getId()));
         JSONArray receivedJSONGifts = new JSONArray();
-        for (Gift gift : receivedGifts) {
+        for (Gift gift : child.getReceivedRoundGifts()) {
             JSONObject jsonGift = new JSONObject();
             jsonGift.put("productName", gift.getProductName());
             jsonGift.put("price", gift.getPrice());

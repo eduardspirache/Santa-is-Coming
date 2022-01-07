@@ -20,7 +20,7 @@ public class GiftStrategyFactory {
         } else if(type.equals(NICE_SCORE)) {
             return new NiceScoreGiftStrategy(childList);
         } else {
-            return new NiceCityGiftStrategy();
+            return new NiceCityGiftStrategy(childList);
         }
     }
 }
