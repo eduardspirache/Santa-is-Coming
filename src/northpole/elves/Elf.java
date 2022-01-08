@@ -23,10 +23,16 @@ public abstract class Elf implements Command {
         this.gift = null;
     }
 
+    /**
+     * @return new budget
+     */
     public double getBudget() {
         return budget;
     }
 
+    /**
+     * @return gift given by Yellow Elf
+     */
     public Gift getGift() {
         return gift;
     }

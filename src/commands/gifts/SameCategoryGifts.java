@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class SameCategoryGifts implements Command {
+public final class SameCategoryGifts implements Command {
     private final List<Gift> santaGiftList;
     private final String giftCategory;
     private List<Gift> sameCategoryGifts;

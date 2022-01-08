@@ -66,7 +66,7 @@ public final class Input {
         this.annualChanges = annualChanges;
     }
 
-    public void setRoundStrategy(String roundStrategy) {
+    public void setRoundStrategy(final String roundStrategy) {
         this.roundStrategy = roundStrategy;
     }
 

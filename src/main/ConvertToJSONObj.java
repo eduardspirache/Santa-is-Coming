@@ -7,14 +7,12 @@ import northpole.Santa;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import java.util.List;
-
-public class ConvertToJSONObj implements Command {
+public final class ConvertToJSONObj implements Command {
     private final Child child;
     private final Santa santa;
     private JSONObject jsonChild;
 
-    public ConvertToJSONObj(Child child) {
+    public ConvertToJSONObj(final Child child) {
         this.child = child;
         this.santa = Santa.getInstance();
         this.jsonChild = new JSONObject();

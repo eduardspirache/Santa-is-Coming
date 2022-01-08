@@ -1,20 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d662010a-d6c5-4bb5-92a6-5b13c2206c94" name="Changes" comment="New Checker">
+    <list default="true" id="d662010a-d6c5-4bb5-92a6-5b13c2206c94" name="Changes" comment="54 points on new Checker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test18.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test18.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test20.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test20.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test21.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test22.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test22.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test23.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test23.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test24.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test24.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test25.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test25.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test26.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test26.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test27.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test27.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test28.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test28.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test29.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test29.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test30.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test30.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/children/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/children/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/budget/CalculateChildBudget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/budget/CalculateChildBudget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/changes/MakeChanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/changes/MakeChanges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/changes/RemoveDuplicateCategories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/changes/RemoveDuplicateCategories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/gifts/SameCategoryGifts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/gifts/SameCategoryGifts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/gifts/SendChildListGifts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/gifts/SendChildListGifts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/gifts/SendGifts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/gifts/SendGifts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/gifts/strategy/GiftStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/gifts/strategy/GiftStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/gifts/strategy/GiftStrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/gifts/strategy/GiftStrategyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/gifts/strategy/NiceCityGiftStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/gifts/strategy/NiceCityGiftStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/gifts/strategy/NiceScoreGiftStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/gifts/strategy/NiceScoreGiftStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/score/CalculateScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/score/CalculateScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/score/CityNiceScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/score/CityNiceScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enums/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enums/CityStrategyEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/CityStrategyEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enums/ElvesType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/ElvesType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ConvertToJSONObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ConvertToJSONObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/northpole/Gift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/Gift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/northpole/Santa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/Santa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/northpole/elves/BlackElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/elves/BlackElf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/northpole/elves/Elf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/elves/Elf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/northpole/elves/ElfFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/elves/ElfFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/northpole/elves/PinkElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/elves/PinkElf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/northpole/elves/WhiteElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/elves/WhiteElf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/northpole/elves/YellowElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/northpole/elves/YellowElf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +163,7 @@
       <workItem from="1641302574315" duration="1488000" />
       <workItem from="1641490796193" duration="30991000" />
       <workItem from="1641583157355" duration="220000" />
-      <workItem from="1641631728202" duration="1006000" />
+      <workItem from="1641631728202" duration="6047000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1640101737197</created>
@@ -231,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641565834555</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="54 points on new Checker">
+      <created>1641632761361</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1641632761361</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +287,8 @@
     <MESSAGE value="Worked on strategy and main" />
     <MESSAGE value="49 Points" />
     <MESSAGE value="New Checker" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Checker" />
+    <MESSAGE value="54 points on new Checker" />
+    <option name="LAST_COMMIT_MESSAGE" value="54 points on new Checker" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

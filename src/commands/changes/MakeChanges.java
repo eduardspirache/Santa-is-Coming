@@ -48,7 +48,7 @@ public final class MakeChanges implements Command {
                         child.getGiftsPreferences().removeIf(updatedGiftPreferences::contains);
                         child.getGiftsPreferences().addAll(0, updatedGiftPreferences);
                     }
-                    if(!update.getElf().equals(child.getElf())) {
+                    if (!update.getElf().equals(child.getElf())) {
                         child.setElf(update.getElf());
                     }
                     break;

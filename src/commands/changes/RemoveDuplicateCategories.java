@@ -6,7 +6,7 @@ import commands.Command;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RemoveDuplicateCategories implements Command {
+public final class RemoveDuplicateCategories implements Command {
     private final List<Child> childList;
 
     public RemoveDuplicateCategories(final List<Child> childList) {

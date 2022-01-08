@@ -7,7 +7,7 @@ import northpole.Gift;
 
 import java.util.List;
 
-public class YellowElf extends Elf implements Command {
+public final class YellowElf extends Elf implements Command {
     private final List<Gift> santaGiftList;
 
     public YellowElf(final Child child, final List<Gift> santaGiftList) {
@@ -23,14 +23,15 @@ public class YellowElf extends Elf implements Command {
      */
     @Override
     public void execute() {
-        for(String giftPreference : child.getGiftsPreferences()) {
-            SameCategoryGifts sameCategoryGifts = new SameCategoryGifts(santaGiftList, giftPreference);
+        for (String giftPreference : child.getGiftsPreferences()) {
+            SameCategoryGifts sameCategoryGifts = new SameCategoryGifts(santaGiftList,
+                    giftPreference);
             sameCategoryGifts.execute();
 
             Gift thisGift;
-            if(sameCategoryGifts.getSameCategoryGifts().size() > 0) {
+            if (sameCategoryGifts.getSameCategoryGifts().size() > 0) {
                 thisGift = sameCategoryGifts.getSameCategoryGifts().get(0);
-                if(thisGift.getQuantity() > 0) {
+                if (thisGift.getQuantity() > 0) {
                     super.gift = thisGift;
                     thisGift.setQuantity(thisGift.getQuantity() - 1);
                     break;

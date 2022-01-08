@@ -3,7 +3,10 @@ package northpole.elves;
 import children.Child;
 import commands.Command;
 
-public class BlackElf extends Elf implements Command {
+import static common.Constants.HUNDRED;
+import static common.Constants.THIRTY;
+
+public final class BlackElf extends Elf implements Command {
 
     public BlackElf(final Child child, final double budget) {
         super(child, budget);
@@ -11,6 +14,6 @@ public class BlackElf extends Elf implements Command {
 
     @Override
     public void execute() {
-        super.budget = budget - budget * 30 / 100;
+        super.budget = budget - budget * THIRTY / HUNDRED;
     }
 }

@@ -1,11 +1,10 @@
 package northpole;
 
-import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Santa {
+public final class Santa {
     private static Santa instance = null;
     private double santaBudget;
     private double averageScoresSum;
@@ -23,7 +22,7 @@ public class Santa {
      * Lazy Singleton
      */
     public static Santa getInstance() {
-        if(instance == null) {
+        if (instance == null) {
             instance = new Santa();
         }
         return instance;
@@ -33,7 +32,7 @@ public class Santa {
         return santaBudget;
     }
 
-    public void setSantaBudget(double santaBudget) {
+    public void setSantaBudget(final double santaBudget) {
         this.santaBudget = santaBudget;
     }
 
@@ -41,7 +40,7 @@ public class Santa {
         return averageScoresSum;
     }
 
-    public void setAverageScoresSum(double averageScoresSum) {
+    public void setAverageScoresSum(final double averageScoresSum) {
         this.averageScoresSum = averageScoresSum;
     }
 
@@ -49,7 +48,7 @@ public class Santa {
         return budgetList;
     }
 
-    public void setBudgetList(Map<Integer, Double> budgetList) {
+    public void setBudgetList(final Map<Integer, Double> budgetList) {
         this.budgetList = budgetList;
     }
 
@@ -57,7 +56,7 @@ public class Santa {
         return giftList;
     }
 
-    public void setGiftList(List<Gift> giftList) {
+    public void setGiftList(final List<Gift> giftList) {
         this.giftList = giftList;
     }
 }

@@ -42,9 +42,9 @@ public final class SendGifts implements Command {
 
             Gift gift;
             if (sameCategoryGiftsList.size() > 0) {
-                for(int i = 0; i < sameCategoryGiftsList.size(); i ++) {
+                for (int i = 0; i < sameCategoryGiftsList.size(); i++) {
                     gift = sameCategoryGiftsList.get(i);
-                    if(gift.getQuantity() > 0 && budget >= gift.getPrice()) {
+                    if (gift.getQuantity() > 0 && budget >= gift.getPrice()) {
                         receivedGifts.add(gift);
                         budget -= gift.getPrice();
                         gift.setQuantity(gift.getQuantity() - 1);

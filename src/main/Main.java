@@ -12,18 +12,15 @@ import commands.gifts.strategy.GiftStrategyFactory;
 import northpole.Santa;
 import northpole.elves.Elf;
 import northpole.elves.ElfFactory;
-import commands.gifts.SendGifts;
 import input.Input;
 import input.InputJSON;
 import northpole.Change;
-import northpole.Gift;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
 
 import static common.Constants.INPUT_PATH;
@@ -32,7 +29,6 @@ import static common.Constants.FILE_EXTENSION;
 import static common.Constants.OUTPUT_PATH;
 import static common.Constants.TEEN_AGE;
 import static common.Constants.YELLOW_ELF;
-import static common.Constants.ID;
 
 
 /**

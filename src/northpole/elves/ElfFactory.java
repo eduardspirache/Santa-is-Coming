@@ -9,13 +9,15 @@ import static common.Constants.BLACK_ELF;
 import static common.Constants.YELLOW_ELF;
 import static common.Constants.PINK_ELF;
 
-public class ElfFactory {
+public final class ElfFactory {
 
     private ElfFactory() {
         // Constructor for checkstyle
     }
 
-
+    /**
+     * @return Elf type
+     */
     public static Elf createElf(final Child child, final List<Gift> santaGiftList,
                                 final double budget) {
         if (child.getElf().equals(YELLOW_ELF)) {

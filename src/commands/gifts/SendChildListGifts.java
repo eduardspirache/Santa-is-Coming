@@ -7,22 +7,20 @@ import northpole.Gift;
 import northpole.Santa;
 import northpole.elves.Elf;
 import northpole.elves.ElfFactory;
-import northpole.elves.YellowElf;
 import org.json.simple.JSONArray;
 
 import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.LinkedList;
 import java.util.List;
 
 import static common.Constants.YELLOW_ELF;
 
-public class SendChildListGifts implements Command {
+public final class SendChildListGifts implements Command {
     private final List<Child> childList;
     private final Santa santa;
-    JSONArray childReceivedGiftsJSON;
+    private JSONArray childReceivedGiftsJSON;
 
-    public SendChildListGifts(List<Child> childList) {
+    public SendChildListGifts(final List<Child> childList) {
         this.childList = childList;
         this.santa = Santa.getInstance();
         this.childReceivedGiftsJSON = new JSONArray();

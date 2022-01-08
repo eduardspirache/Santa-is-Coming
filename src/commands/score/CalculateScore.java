@@ -3,6 +3,9 @@ package commands.score;
 import children.Child;
 import commands.Command;
 
+import static common.Constants.HUNDRED;
+import static common.Constants.TEN;
+
 public final class CalculateScore implements Command {
     private Score score;
     private final Child child;
@@ -18,12 +21,12 @@ public final class CalculateScore implements Command {
     @Override
     public void execute() {
         score.execute();
-        if(score.getAverageScore() +
-                score.getAverageScore() * child.getNiceScoreBonus() / 100 >= 10) {
-            child.setNiceScore(10);
+        if (score.getAverageScore()
+                + score.getAverageScore() * child.getNiceScoreBonus() / HUNDRED >= TEN) {
+            child.setNiceScore(TEN);
         } else {
-            child.setNiceScore(score.getAverageScore() +
-                    score.getAverageScore() * child.getNiceScoreBonus() / 100);
+            child.setNiceScore(score.getAverageScore()
+                    + score.getAverageScore() * child.getNiceScoreBonus() / HUNDRED);
         }
     }
 

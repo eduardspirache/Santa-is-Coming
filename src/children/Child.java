@@ -3,7 +3,6 @@ package children;
 import northpole.Gift;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public final class Child {
@@ -102,7 +101,7 @@ public final class Child {
         return elf;
     }
 
-    public void setElf(String elf) {
+    public void setElf(final String elf) {
         this.elf = elf;
     }
 
@@ -110,7 +109,7 @@ public final class Child {
         return receivedRoundGifts;
     }
 
-    public void setReceivedRoundGifts(List<Gift> receivedRoundGifts) {
+    public void setReceivedRoundGifts(final List<Gift> receivedRoundGifts) {
         this.receivedRoundGifts = receivedRoundGifts;
     }
 }
