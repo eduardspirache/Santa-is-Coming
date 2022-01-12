@@ -10,7 +10,7 @@ import java.util.List;
 
 
 public final class CityNiceScore implements Command {
-    private List<City> cityScores;
+    private final List<City> cityScores;
     private final List<Child> childList;
     private final Cities allCities[];
 

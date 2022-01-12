@@ -4,7 +4,6 @@ import children.Child;
 import children.City;
 import commands.gifts.SendChildListGifts;
 import commands.score.CityNiceScore;
-import northpole.Santa;
 import org.json.simple.JSONArray;
 
 import java.util.ArrayList;
@@ -13,11 +12,9 @@ import java.util.List;
 
 public final class NiceCityGiftStrategy implements GiftStrategy {
     private final List<Child> childList;
-    private final Santa santa;
 
     public NiceCityGiftStrategy(final List<Child> childList) {
         this.childList = new ArrayList<>(childList);
-        this.santa = Santa.getInstance();
     }
 
     @Override
