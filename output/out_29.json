@@ -193,10 +193,6 @@
       "assignedBudget" : 190.12738853503183,
       "id" : 0,
       "receivedGifts" : [ {
-        "price" : 30.0,
-        "category" : "Books",
-        "productName" : "Twilight"
-      }, {
         "price" : 10.0,
         "category" : "Toys",
         "productName" : "Doll"
@@ -235,13 +231,17 @@
       "assignedBudget" : 133.0891719745223,
       "id" : 3,
       "receivedGifts" : [ {
-        "price" : 30.0,
-        "category" : "Books",
-        "productName" : "Twilight"
-      }, {
         "price" : 100.0,
         "category" : "Technology",
         "productName" : "Headphones"
+      }, {
+        "price" : 10.0,
+        "category" : "Board Games",
+        "productName" : "Uno"
+      }, {
+        "price" : 10.0,
+        "category" : "Toys",
+        "productName" : "Doll"
       } ],
       "age" : 4,
       "averageScore" : 10.0
@@ -286,13 +286,13 @@
         "category" : "Sweets",
         "productName" : "Chocolate"
       }, {
-        "price" : 10.0,
+        "price" : 15.0,
         "category" : "Toys",
-        "productName" : "Doll"
+        "productName" : "Castle"
       }, {
-        "price" : 10.0,
+        "price" : 30.0,
         "category" : "Board Games",
-        "productName" : "Uno"
+        "productName" : "Monopoly"
       } ],
       "age" : 5,
       "averageScore" : 10.0
@@ -305,9 +305,9 @@
       "assignedBudget" : 126.28958702812263,
       "id" : 2,
       "receivedGifts" : [ {
-        "price" : 15.0,
+        "price" : 20.0,
         "category" : "Toys",
-        "productName" : "Castle"
+        "productName" : "Car"
       }, {
         "price" : 30.0,
         "category" : "Board Games",

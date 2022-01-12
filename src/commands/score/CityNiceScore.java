@@ -1,30 +1,26 @@
 package commands.score;
 
 import children.Child;
+import children.City;
 import commands.Command;
 import enums.Cities;
 
-
-import java.util.Collections;
-import java.util.HashMap;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-import java.util.LinkedHashMap;
 
-import static java.util.stream.Collectors.toMap;
 
 public final class CityNiceScore implements Command {
-    private HashMap<String, Double> cityScores;
+    private List<City> cityScores;
     private final List<Child> childList;
     private final Cities allCities[];
 
     public CityNiceScore(final List<Child> childList) {
-        this.cityScores = new HashMap<>();
+        this.cityScores = new ArrayList<>();
         this.childList = childList;
         this.allCities = Cities.values();
     }
 
-    public HashMap<String, Double> getCityScores() {
+    public List<City> getCityScores() {
         return cityScores;
     }
 
@@ -40,15 +36,15 @@ public final class CityNiceScore implements Command {
                 }
             }
             if (count > 0) {
-                cityScores.put(city.getValue(), sum / count);
+                cityScores.add(new City(city.getValue(), sum / count));
             }
 
         }
-        cityScores = cityScores
-                .entrySet()
-                .stream()
-                .sorted(Collections.reverseOrder(Map.Entry.comparingByValue()))
-                .collect(toMap(Map.Entry::getKey, Map.Entry::getValue,
-                        (e1, e2) -> e2, LinkedHashMap::new));
+        cityScores.sort((a, b) -> {
+            if (a.getScore() == b.getScore()) {
+                return a.getName().compareTo(b.getName());
+            }
+            return Double.compare(b.getScore(), a.getScore());
+        });
     }
 }

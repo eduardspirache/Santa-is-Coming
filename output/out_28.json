@@ -35,10 +35,6 @@
         "price" : 30.0,
         "category" : "Books",
         "productName" : "Twilight"
-      }, {
-        "price" : 45.0,
-        "category" : "Clothes",
-        "productName" : "Dress"
       } ],
       "age" : 1,
       "averageScore" : 10.0
@@ -54,10 +50,6 @@
         "price" : 10.0,
         "category" : "Toys",
         "productName" : "Doll"
-      }, {
-        "price" : 45.0,
-        "category" : "Clothes",
-        "productName" : "Dress"
       } ],
       "age" : 3,
       "averageScore" : 10.0
@@ -342,9 +334,9 @@
       "assignedBudget" : 96.29414157851913,
       "id" : 4,
       "receivedGifts" : [ {
-        "price" : 25.0,
+        "price" : 30.0,
         "category" : "Toys",
-        "productName" : "Bike"
+        "productName" : "Lego"
       }, {
         "price" : 30.0,
         "category" : "Sweets",
@@ -365,9 +357,9 @@
       "assignedBudget" : 97.39625711960944,
       "id" : 5,
       "receivedGifts" : [ {
-        "price" : 30.0,
+        "price" : 25.0,
         "category" : "Toys",
-        "productName" : "Lego"
+        "productName" : "Bike"
       }, {
         "price" : 35.0,
         "category" : "Books",

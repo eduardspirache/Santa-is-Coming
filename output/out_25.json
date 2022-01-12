@@ -166,9 +166,9 @@
         "category" : "Sweets",
         "productName" : "Chocolate"
       }, {
-        "price" : 5.0,
+        "price" : 25.0,
         "category" : "Toys",
-        "productName" : "Teddy Bear"
+        "productName" : "Bike"
       } ],
       "age" : 13,
       "averageScore" : 10.0
@@ -239,9 +239,9 @@
         "category" : "Books",
         "productName" : "Twilight"
       }, {
-        "price" : 25.0,
+        "price" : 5.0,
         "category" : "Toys",
-        "productName" : "Bike"
+        "productName" : "Teddy Bear"
       } ],
       "age" : 8,
       "averageScore" : 10.0

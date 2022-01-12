@@ -1,15 +1,14 @@
 package commands.gifts.strategy;
 
 import children.Child;
+import children.City;
 import commands.gifts.SendChildListGifts;
 import commands.score.CityNiceScore;
 import northpole.Santa;
 import org.json.simple.JSONArray;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 
 public final class NiceCityGiftStrategy implements GiftStrategy {
@@ -27,24 +26,13 @@ public final class NiceCityGiftStrategy implements GiftStrategy {
         cities.execute();
 
         // If there are two cities with the same score, we sort them lexicographically
-        HashMap<String, Double> map = cities.getCityScores();
-        Map.Entry<String, Double> prev = null;
-        for (Map.Entry<String, Double> entry : map.entrySet()) {
-            if (prev != null) {
-                if (prev.getValue() == entry.getValue()) {
-                    if (prev.getKey().compareTo(entry.getKey()) > 0) {
-                        prev.setValue(entry.setValue(prev.getValue()));
-                    }
-                }
-            }
-            prev = entry;
-        }
+        List<City> cityList = cities.getCityScores();
 
         // We sort the list by town and then by id
         List<Child> orderedList = new ArrayList<>();
-        for (Map.Entry<String, Double> entry : map.entrySet()) {
+        for (var entry : cityList) {
             for (Child child : childList) {
-                if (child.getCity().equals(entry.getKey())) {
+                if (child.getCity().equals(entry.getName())) {
                     orderedList.add(child);
                 }
             }
