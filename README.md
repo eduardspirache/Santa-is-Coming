@@ -2,7 +2,7 @@
 
 The purpose of the project is to create a simulation of Santa Claus delivering gifts to children on Christmas Eve. This project will demonstrate the use of object-oriented programming concepts such as design-patterns, inheritance, polymorphism, and encapsulation.<br>
 
-# Implementation
+# Implementation 
 
 I have attempted to modularize the code as best as possible using the Command Pattern, Factory Pattern, Strategy Pattern, Singleton, and abstract class-based implementations. The comments placed in the code also explain certain functionalities quite well.<br>
 
