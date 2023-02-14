@@ -1,6 +1,6 @@
 # Java Christmas Project
 
-The purpose of the project is to create a simulation of Santa Claus delivering gifts to children on Christmas Eve. This project will demonstrate the use of object-oriented programming concepts such as design-patterns, inheritance, polymorphism, and encapsulation.<br>
+Created a Java-based simulation of Santa Claus delivering gifts to children on Christmas Eve, utilizing object-oriented programming concepts such as design patterns, inheritance, polymorphism, and encapsulation. The project demonstrates practical application of OOP principles in a fun and engaging context.
 
 # Implementation 
 
